@@ -11,7 +11,7 @@ function App() {
   return (
     <Router>
       <nav className="navbar navbar-expand-lg navbar-light bg-light">
-        <Link to="/home" className="navbar-brand">Navbar</Link>
+        <Link to="/home" className="navbar-brand">Ratsi</Link>
         <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
           <span className="navbar-toggler-icon"></span>
         </button>

@@ -1,1 +1,21 @@
 
+.background-white {
+    background-color: white;
+  }
+  
+  .background-blue {
+    background-color: #16477d;
+  }
+
+  .background-image {
+    background-image: url('https://www.pexels.com/es-es/foto/persona-mujer-mano-flores-3746197/');
+  }
+
+.subtitle {
+    font-family: 'Sen', sans-serif;
+    padding: 30px;
+}
+
+.carousel-contact {
+  max-width: 30%;
+}

@@ -3,8 +3,9 @@ import React, { Fragment } from 'react';
 const Home = () => {
     return (
         <Fragment>
-            <h1>Hello to Ratsi</h1>
-
+            <div>
+                <h2 className="subtitle">Hello to Ratsi</h2>
+            </div>
         </Fragment>
     );
 }
