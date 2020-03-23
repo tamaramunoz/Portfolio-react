@@ -1,6 +1,5 @@
 import React, { Fragment,useState, useEffect } from 'react'
-import { Button } from 'react-bootstrap'
-import MyVerticallyCenteredModal from './MyVerticallyCenteredModal';
+import Accordions from "./Accordion";
 
 const Portfolio = () => {
 
@@ -16,39 +15,15 @@ const Portfolio = () => {
         const infoProject = await data.json()
         // console.log(infoProject)
         setProject(infoProject)
-
     }
-
-    const [ modalShow, setModalShow ] = useState(false);
 
     return (
         <Fragment>
-            <div>
+            <div className="portfolioBg">
                 <h2 className="subtitle">Portafolio</h2>
-
-                <ul>
-                    {
-                        project.map(item => {
-                            return (
-                            <div>
-                                <Button variant="primary" onClick={() => setModalShow(true)} key={item.id}>
-                                    {item.title}
-                                </Button>
-                            </div>
-                            )
-                        })
-                    }
-                </ul>
-                <>
-                    {/* <Button variant="primary" onClick={() => setModalShow(true)}>
-                        Aquí irán las imagenes de mis Proyectos
-                    </Button> */}
-
-                    <MyVerticallyCenteredModal
-                        show={modalShow}
-                        onHide={() => setModalShow(false)}
-                    />
-                </>
+                <div className="projectsContainer">
+                    <Accordions project={project} />
+                </div>
             </div>
         </Fragment>
     );

@@ -18,10 +18,11 @@ const Contact = () => {
                 <h2 className="subtitle">Contacto</h2>
 
                 <div className="contactInfo">
-                    <p>Puedes encontrarme en las siguientes redes!</p>
+                    <p>Puedes encontrarme en las siguientes redes:</p>
 
                     <div className="carousel-contact">
                         <Carousel activeIndex={index} onSelect={handleSelect}>
+
                             <Carousel.Item>
                                 <img
                                     className="d-block w-100"
@@ -30,35 +31,34 @@ const Contact = () => {
                                 />
                                 <Carousel.Caption>
                                     <h3>Correo</h3>
-                                    <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+                                    <p>tami.skt@gmail.com</p>
                                 </Carousel.Caption>
                             </Carousel.Item>
+
                             <Carousel.Item>
                                 <img
                                     className="d-block w-100"
                                     src={img}
                                     alt="Second slide"
                                 />
-
                                 <Carousel.Caption>
                                     <h3>GitHub</h3>
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                                    <a href="https://github.com/tamaramunoz" target="blank"> /tamaramunoz </a>
                                 </Carousel.Caption>
                             </Carousel.Item>
+
                             <Carousel.Item>
                                 <img
                                     className="d-block w-100"
                                     src={img}
                                     alt="Third slide"
                                 />
-
                                 <Carousel.Caption>
                                     <h3>LinkedIn</h3>
-                                    <p>
-                                        Praesent commodo cursus magna, vel scelerisque nisl consectetur.
-                            </p>
+                                    <a href="https://www.linkedin.com/in/tamara-munoz-zamora/" target="blank"> /tamara-munoz-zamora </a>
                                 </Carousel.Caption>
                             </Carousel.Item>
+                            
                         </Carousel>
                     </div>
                 </div>

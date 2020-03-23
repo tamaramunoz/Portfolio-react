@@ -4,7 +4,7 @@ import { Card } from 'react-bootstrap';
 const Footer = () => {
     return (
         <footer >
-            <Card>
+            <Card >
                 <Card.Body className="footer">
                     <footer>
                         Site created and design by Tamara Muñoz

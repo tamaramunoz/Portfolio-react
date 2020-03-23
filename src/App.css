@@ -13,18 +13,16 @@
   
 }
 
-
-.background-white {
-    background-color: white;
+.background-yellow {
+    background-color: #ffda59;
   }
   
   .background-blue {
-    background-color: #16477d;
+    background-color: #2d98da;
   }
 
   .background-image {
     background-image: url('https://www.pexels.com/es-es/foto/persona-mujer-mano-flores-3746197/');
-    
     background-repeat: no-repeat;
     background-size: cover;
   }
@@ -40,13 +38,30 @@
 .profileText {
   margin-left: 25%;
   margin-right: 25%;
-  padding: 20px;
+  padding: 25px;
   text-align: center;
-  background-color: #ffda59;
-  color: #3e35a2;
+  background-color: #3e35a2;
+  color:  #ffeba8;
   font-family: 'Sen', sans-serif;
-  font-size: 20px;
+  font-size: 18px;
   border-radius: 20px;
+}
+
+.projectContainer {
+  margin-left: 20%;
+  margin-right: 20%;
+  margin-bottom: 30px;
+}
+
+.projectCards {
+  background-color: #fed330;
+  font-family: 'Sen', sans-serif;
+}
+
+.experienceContainer {
+  padding: 15px;
+  margin-left: 20%;
+  margin-right: 15%;
 }
 
 .contactInfo {
@@ -54,12 +69,15 @@
 }
 
 .carousel-contact {
-  margin-left: 30%;
+  margin-left: 35%;
   margin-right: 30%;
   max-width: 30%;
+  margin-bottom: 30px;
+  font-family: 'Sen', sans-serif;
 }
 
 .footer {
+  padding: 20px;
   background-color: #3e35a2;
   color: #ffeba8;
   text-align:  center;
