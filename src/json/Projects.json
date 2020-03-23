@@ -1,0 +1,49 @@
+[
+    {
+        "title": "Portfolio Tamara Muñoz",
+        "tools": "ReactJS, HTML5, CSS3, Bootstrap",
+        "description": "Portafolio"
+    },
+
+    {
+        "title": "Here",
+        "tools": "ReactJS, HTML5, CSS3, Bootstrap, Firebase, API: Here Maps",
+        "description": "Proyecto Empresa Here"
+    },
+
+    {
+        "title": "Burger Queen",
+        "tools": "ReactJS, HTML5, CSS3, Bootstrap, Firebase",
+        "description": "App "
+    },
+    
+    {
+        "title": "md-Links",
+        "tools": "NodeJS, npm",
+        "description": "Librería instalable "
+    },
+    
+    {
+        "title": "Bitácora",
+        "tools": "Javascript, HTML5, CSS3, Flexbox, Firebase ",
+        "description": "Social Network"
+    },
+
+    {
+        "title": "Hello, I'm Oscar",
+        "tools": "Javascript, HTML5, CSS3, Flexbox, Bootstrap, API: Movie Database",
+        "description": "Página Web que consume API para tener información acerca de las peliculas nominadas a los Oscar"
+    },
+
+    {
+        "title": "PokeDesk",
+        "tools": "Javascript, HTML5, CSS3, Flexbox",
+        "description": "Buscador de Pokemones"
+    },
+
+    {
+        "title": "Cipher",
+        "tools": "Javascript, HTML5, CSS3",
+        "description": "Cifrador de mensajes"
+    }
+]
