@@ -4,6 +4,7 @@
         "title": "Portfolio Tamara Muñoz",
         "tools": "ReactJS, HTML5, CSS3, Bootstrap",
         "description": "Portafolio",
+        
         "left": false
     },
 
@@ -12,6 +13,7 @@
         "title": "Here",
         "tools": "ReactJS, HTML5, CSS3, Bootstrap, Firebase, API: Here Maps",
         "description": "Proyecto Empresa Here",
+
         "left": true
     },
 
@@ -36,6 +38,7 @@
         "title": "Bitácora",
         "tools": "Javascript, HTML5, CSS3, Flexbox, Firebase ",
         "description": "Social Network",
+        "img": "https://drive.google.com/open?id=1qLc5hQr42s5dHUl9DoUUVU0Ojf-nMP0L",
         "left": false
     },
 
@@ -44,6 +47,7 @@
         "title": "Hello, I'm Oscar",
         "tools": "Javascript, HTML5, CSS3, Flexbox, Bootstrap, API: Movie Database",
         "description": "Página Web que consume API para tener información acerca de las peliculas nominadas a los Oscar",
+        "img": "https://drive.google.com/open?id=1k2mOStkxd_33tvZFVOJBlYL6El4JcBsF",
         "left": true
     },
 
@@ -52,6 +56,7 @@
         "title": "PokeDesk",
         "tools": "Javascript, HTML5, CSS3, Flexbox",
         "description": "Buscador de Pokemones",
+        "img": "https://drive.google.com/open?id=1gt2BOSW_iLCCID2K_50TRLvuhL2G1rw-",
         "left": false
     },
 
