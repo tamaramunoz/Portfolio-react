@@ -1,0 +1,73 @@
+[
+    {   
+        "id": 8,
+        "title": "Portfolio Tamara Muñoz",
+        "tools": "ReactJS, HTML5, CSS3, Bootstrap",
+        "description": "Portafolio",
+        "img": "",
+        "url": " "
+    },
+
+    {
+        "id": 7,
+        "title": "Here",
+        "tools": "ReactJS, HTML5, CSS3, Bootstrap, Firebase, API: Here Maps",
+        "description": "Proyecto Empresa Here",
+        "img": "https://github.com/tamaramunoz/Portfolio-react/blob/developer/src/images/Hello-im-Oscar.png?raw=true",
+        "url": " "
+    },
+
+    {
+        "id": 6,
+        "title": "Burger Queen",
+        "tools": "ReactJS, HTML5, CSS3, Bootstrap, Firebase",
+        "description": "App ",
+        "img": "",
+        "url": " "
+    },
+    
+    {
+        "id": 5,
+        "title": "md-Links",
+        "tools": "NodeJS, npm",
+        "description": "Librería instalable ",
+        "img": "",
+        "url": " "
+    },
+    
+    {
+        "id": 4,
+        "title": "Bitácora",
+        "tools": "Javascript, HTML5, CSS3, Flexbox, Firebase ",
+        "description": "Social Network",
+        "img": "",
+        "url": "https://revaldivieso.github.io/SCL012-Social-Network/src/index.html#/singIn"
+    },
+
+    {
+        "id": 3,
+        "title": "Hello, I'm Oscar",
+        "tools": "Javascript, HTML5, CSS3, Flexbox, Bootstrap, API: Movie Database",
+        "description": "Página Web que consume API para tener información acerca de las peliculas nominadas a los Oscar",
+        "img": "",
+        "url": "https://tamaramunoz.github.io/SCL012-proyecto-peliculas/src/index.html"
+    },
+
+    {
+        "id": 2,
+        "title": "PokeDesk",
+        "tools": "Javascript, HTML5, CSS3, Flexbox",
+        "description": "Buscador de Pokemones",
+        "img": "",
+        "url": "https://tamaramunoz.github.io/SCL012-data-lovers/src/index.html"
+    },
+
+    {   
+        "id": 1,
+        "title": "Cipher",
+        "tools": "Javascript, HTML5, CSS3",
+        "description": "Cifrador de mensajes",
+        "img": "",
+        "url": "https://tamaramunoz.github.io/SCL012-Cipher/src/index.html"
+    }
+]
