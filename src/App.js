@@ -37,6 +37,7 @@ function App() {
           </Navbar.Collapse>
         </Navbar>
 
+
         <Route exact path="/" component={Home} />
         <Route path="/profile" component={Profile} />
         <Route path="/portfolio" component={Portfolio} />

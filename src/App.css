@@ -7,7 +7,7 @@
 }
 
 .nav {
-  background-color: #a59fe1;
+  background-color: #ffd542;
 }
 
 .navL {
@@ -16,8 +16,8 @@
   
 }
 
-.background-yellow {
-    background-color: #ffda59;
+.background-white {
+    background-color: #ffffff;
   }
   
   .background-blue {
@@ -29,8 +29,9 @@
     padding: 30px;
     text-align: center;
     font-size: 50px;
-    color: #271e85;
+    color: #033e99;
 }
+
 
 .profileText {
   margin-left: 25%;
@@ -45,15 +46,24 @@
 }
 
 .projectContainer {
-  margin-left: 20%;
-  margin-right: 20%;
+display: flex;
+flex-wrap: wrap;
+justify-content: center;
+
   margin-bottom: 30px;
+}
+
+.projectFull {
+  margin: 10px;
+  flex-wrap: wrap;
 }
 
 .projectCards {
   background-color: #fed330;
   font-family: 'Sen', sans-serif;
 }
+
+
 
 .experienceContainer {
   padding: 15px;
@@ -89,7 +99,7 @@
 .footer {
   padding: 20px;
   background-color: #3e35a2;
-  color: #ffeba8;
+  color: #ffd542;
   align-items: flex-end;
   text-align:  center;
   font-family: 'Sen', sans-serif;

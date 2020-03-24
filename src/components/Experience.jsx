@@ -21,12 +21,12 @@ const Experience = () => {
 
     console.log(works)
 
-  const isBackgroundYellow = true;
+  const isBackgroundWhite = true;
 
   return (
     <Fragment>
 
-      <div className={isBackgroundYellow ? "background-yellow" : "background-blue"}>
+      <div className={isBackgroundWhite ? "background-white" : "background-blue"}>
 
         <h2 className="subtitle">Experiencia</h2>
 

@@ -5,7 +5,7 @@
         "tools": "ReactJS, HTML5, CSS3, Bootstrap",
         "description": "Portafolio",
         "img": "",
-        "left": false
+        "url": " "
     },
 
     {
@@ -14,7 +14,7 @@
         "tools": "ReactJS, HTML5, CSS3, Bootstrap, Firebase, API: Here Maps",
         "description": "Proyecto Empresa Here",
         "img": "https://github.com/tamaramunoz/Portfolio-react/blob/developer/src/images/Hello-im-Oscar.png?raw=true",
-        "left": true
+        "url": " "
     },
 
     {
@@ -23,7 +23,7 @@
         "tools": "ReactJS, HTML5, CSS3, Bootstrap, Firebase",
         "description": "App ",
         "img": "",
-        "left": false
+        "url": " "
     },
     
     {
@@ -32,7 +32,7 @@
         "tools": "NodeJS, npm",
         "description": "Librería instalable ",
         "img": "",
-        "left": true
+        "url": " "
     },
     
     {
@@ -41,7 +41,7 @@
         "tools": "Javascript, HTML5, CSS3, Flexbox, Firebase ",
         "description": "Social Network",
         "img": "",
-        "left": false
+        "url": "https://revaldivieso.github.io/SCL012-Social-Network/src/index.html#/singIn"
     },
 
     {
@@ -50,7 +50,7 @@
         "tools": "Javascript, HTML5, CSS3, Flexbox, Bootstrap, API: Movie Database",
         "description": "Página Web que consume API para tener información acerca de las peliculas nominadas a los Oscar",
         "img": "",
-        "left": true
+        "url": "https://tamaramunoz.github.io/SCL012-proyecto-peliculas/src/index.html"
     },
 
     {
@@ -59,7 +59,7 @@
         "tools": "Javascript, HTML5, CSS3, Flexbox",
         "description": "Buscador de Pokemones",
         "img": "",
-        "left": false
+        "url": "https://tamaramunoz.github.io/SCL012-data-lovers/src/index.html"
     },
 
     {   
@@ -68,6 +68,6 @@
         "tools": "Javascript, HTML5, CSS3",
         "description": "Cifrador de mensajes",
         "img": "",
-        "left": true
+        "url": "https://tamaramunoz.github.io/SCL012-Cipher/src/index.html"
     }
 ]

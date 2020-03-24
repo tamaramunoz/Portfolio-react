@@ -1,16 +1,9 @@
 import React, { Fragment, useState } from 'react';
-import Background from '../images/fondo-portafolio.png';
 import gmail from '../images/contactCard-gmail.png'
 import github from '../images/contactCard-github.png'
 import linkedin from '../images/contactCard-linkedin.png'
 import { Carousel } from 'react-bootstrap'
 
-
-let sectionStyle = {
-    width: "100%",
-    height: "700px",
-    backgroundImage: `url(${Background})`
-  };
 
 const Contact = () => {
 
@@ -22,7 +15,7 @@ const Contact = () => {
 
     return (
         <Fragment>
-            <div style={ sectionStyle }>
+            <div>
                 <h2 className="subtitle">Contacto</h2>
 
                 <div className="contactInfo">
