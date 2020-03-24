@@ -1,10 +1,13 @@
 *{
   padding: 0;
   margin: 0;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .nav {
-  background-color: #3e35a2;
+  background-color: #a59fe1;
 }
 
 .navL {
@@ -19,12 +22,6 @@
   
   .background-blue {
     background-color: #2d98da;
-  }
-
-  .background-image {
-    background-image: url('https://www.pexels.com/es-es/foto/persona-mujer-mano-flores-3746197/');
-    background-repeat: no-repeat;
-    background-size: cover;
   }
 
 .subtitle {
@@ -66,20 +63,47 @@
 
 .contactInfo {
  text-align: center;
+
+}
+
+.contactDescription {
+  font-family: 'Sen', sans-serif;
+  color: #271e85;
+  margin-bottom: 25px;
+  
+}
+
+.contactCard {
+  font-family: 'Sen', sans-serif;
+  color: #ffda59;
 }
 
 .carousel-contact {
   margin-left: 35%;
   margin-right: 30%;
   max-width: 30%;
-  margin-bottom: 30px;
   font-family: 'Sen', sans-serif;
+  
 }
 
 .footer {
   padding: 20px;
   background-color: #3e35a2;
   color: #ffeba8;
+  align-items: flex-end;
   text-align:  center;
   font-family: 'Sen', sans-serif;
 }
+
+
+/* @media only screen and (max-width: 480px) {
+  body {
+    background-image: url(images/background_480.jpg);
+  }
+}
+
+@media only screen and (max-width: 1280px) {
+  body {
+    background-image: url(images/background_1280.jpg);
+  }
+} */

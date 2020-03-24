@@ -10,10 +10,10 @@ let sectionStyle = {
 const Profile = () => {
     return (
         <Fragment>
-            <section style={ sectionStyle }>
-                <h2 className="subtitle">Perfil</h2>
+            <div style={ sectionStyle } >
+                <h2 className="subtitle">Acerca</h2>
                 <p className="profileText">Desarrolladora Front-End, disfruto probar nuevas tecnologías por eso es que estoy siempre preparada para aprender e integrar nuevos conocimientos y habilidades. Me caracterizo por tener capacidad de adaptación, compromiso con las actividades que desarrollo y responsabilidad.</p>
-            </section>
+            </div>
         </Fragment>
     );
 }

@@ -43,8 +43,6 @@ function App() {
         <Route path="/experience" component={Experience} />
         <Route path="/contact" component={Contact} />
 
-
-
       </Router>
       <footer>
         <Footer />

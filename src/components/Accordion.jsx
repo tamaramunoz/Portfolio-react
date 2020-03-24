@@ -15,6 +15,7 @@ const Accordions = (props) => {
                 <Card >
                   <Accordion.Toggle as={Card.Header} eventKey="1">
                     {item.title}
+                    <img src={item.img} alt=""></img>
                   </Accordion.Toggle>
                   <Accordion.Collapse eventKey="1">
 

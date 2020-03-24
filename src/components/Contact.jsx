@@ -1,5 +1,5 @@
 import React, { Fragment, useState } from 'react';
-import Background from '../images/fondo02.png';
+import Background from '../images/fondo-portafolio.png';
 import gmail from '../images/contactCard-gmail.png'
 import github from '../images/contactCard-github.png'
 import linkedin from '../images/contactCard-linkedin.png'
@@ -26,9 +26,9 @@ const Contact = () => {
                 <h2 className="subtitle">Contacto</h2>
 
                 <div className="contactInfo">
-                    <p>Puedes encontrarme en las siguientes redes:</p>
+                    <p className="contactDescription">Puedes encontrarme en las siguientes redes:</p>
 
-                    <div className="carousel-contact">
+                    <div className="carousel-contact responsive">
                         <Carousel activeIndex={index} onSelect={handleSelect}>
 
                             <Carousel.Item>
@@ -38,7 +38,7 @@ const Contact = () => {
                                     alt="First slide"
                                 />
                                 <Carousel.Caption>
-                                    <h3>Correo</h3>
+                                    <h3 className="contactCard">Correo</h3>
                                     <a 
                                         href="https://mail.google.com/mail/u/0/#inbox" 
                                         target="blank"
@@ -53,7 +53,7 @@ const Contact = () => {
                                     alt="Second slide"
                                 />
                                 <Carousel.Caption>
-                                    <h3>GitHub</h3>
+                                    <h3 className="contactCard">GitHub</h3>
                                     <a 
                                         href="https://github.com/tamaramunoz" 
                                         target="blank"
@@ -69,7 +69,7 @@ const Contact = () => {
                                     alt="Third slide"
                                 />
                                 <Carousel.Caption>
-                                    <h3>LinkedIn</h3>
+                                    <h3 className="contactCard">LinkedIn</h3>
                                     <a href="https://www.linkedin.com/in/tamara-munoz-zamora/" target="blank"> /tamara-munoz-zamora </a>
                                 </Carousel.Caption>
                             </Carousel.Item>

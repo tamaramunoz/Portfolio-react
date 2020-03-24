@@ -1,5 +1,12 @@
-import React, { Fragment,useState, useEffect } from 'react'
+import React, { Fragment, useState, useEffect } from 'react'
 import Accordions from "./Accordion";
+import Background from '../images/fondo-portafolio.png';
+
+let sectionStyle = {
+    width: "100%",
+    height: "700px",
+    backgroundImage: `url(${Background})`
+  };
 
 const Portfolio = () => {
 
@@ -19,11 +26,13 @@ const Portfolio = () => {
 
     return (
         <Fragment>
-            <div className="portfolioBg">
+            <div style={ sectionStyle }>
                 <h2 className="subtitle">Portafolio</h2>
+
                 <div className="projectsContainer">
-                    <Accordions project={project} />
+                    <Accordions project={project} /> 
                 </div>
+
             </div>
         </Fragment>
     );
