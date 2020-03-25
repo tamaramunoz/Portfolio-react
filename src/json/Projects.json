@@ -4,7 +4,7 @@
         "title": "Portfolio Tamara Muñoz",
         "tools": "ReactJS, HTML5, CSS3, Bootstrap",
         "description": "Portafolio",
-        "img": "",
+        "img": "https://github.com/tamaramunoz/Portfolio-react/blob/master/src/images/fondo-home.png?raw=true",
         "url": " "
     },
 
@@ -13,7 +13,7 @@
         "title": "Here",
         "tools": "ReactJS, HTML5, CSS3, Bootstrap, Firebase, API: Here Maps",
         "description": "Proyecto Empresa Here",
-        "img": "",
+        "img": "https://github.com/tamaramunoz/Portfolio-react/blob/master/src/images/fondo-home.png?raw=true",
         "url": " "
     },
 
@@ -22,7 +22,7 @@
         "title": "Burger Queen",
         "tools": "ReactJS, HTML5, CSS3, Bootstrap, Firebase",
         "description": "App ",
-        "img": "",
+        "img": "https://github.com/tamaramunoz/Portfolio-react/blob/master/src/images/fondo-home.png?raw=true",
         "url": " "
     },
     

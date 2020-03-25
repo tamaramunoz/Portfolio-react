@@ -1,6 +1,7 @@
 import React, {Fragment} from 'react';
 import { BrowserRouter as Router, Route, Link } from "react-router-dom";
 import { Navbar, Nav } from 'react-bootstrap'
+import icono from './images/icono-portafolio.png'
 import Home from './components/Home'
 import Profile from './components/Profile';
 import Portfolio from './components/Portfolio';
@@ -14,7 +15,7 @@ function App() {
     <Fragment>
       <Router>
         <Navbar className="nav" expand="lg">
-          <Navbar.Brand href="/">Ratsi</Navbar.Brand>
+          <Navbar.Brand href="/"><img src={icono} alt="logo" width={64} /></Navbar.Brand>
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
           <Navbar.Collapse id="basic-navbar-nav">
             <Nav className="mr-auto">
