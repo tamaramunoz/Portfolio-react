@@ -12,7 +12,7 @@ const Portfolio = () => {
     }, [])
 
     const getData = async () => {
-        const data = await fetch('https://raw.githubusercontent.com/tamaramunoz/Portfolio-react/developer/src/json/Projects.json')
+        const data = await fetch('https://raw.githubusercontent.com/tamaramunoz/Portfolio-react/master/src/json/Projects.json')
         const infoProject = await data.json()
         // console.log(infoProject)
         setProject(infoProject)

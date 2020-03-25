@@ -13,7 +13,7 @@
         "title": "Here",
         "tools": "ReactJS, HTML5, CSS3, Bootstrap, Firebase, API: Here Maps",
         "description": "Proyecto Empresa Here",
-        "img": "https://github.com/tamaramunoz/Portfolio-react/blob/developer/src/images/Hello-im-Oscar.png?raw=true",
+        "img": "",
         "url": " "
     },
 
@@ -31,7 +31,7 @@
         "title": "md-Links",
         "tools": "NodeJS, npm",
         "description": "Librería instalable ",
-        "img": "",
+        "img": "https://github.com/tamaramunoz/Portfolio-react/blob/master/src/images/md-Links.png?raw=true",
         "url": " "
     },
     
@@ -40,7 +40,7 @@
         "title": "Bitácora",
         "tools": "Javascript, HTML5, CSS3, Flexbox, Firebase ",
         "description": "Social Network",
-        "img": "",
+        "img": "https://github.com/tamaramunoz/Portfolio-react/blob/master/src/images/Bitacora.png?raw=true",
         "url": "https://revaldivieso.github.io/SCL012-Social-Network/src/index.html#/singIn"
     },
 
@@ -49,7 +49,7 @@
         "title": "Hello, I'm Oscar",
         "tools": "Javascript, HTML5, CSS3, Flexbox, Bootstrap, API: Movie Database",
         "description": "Página Web que consume API para tener información acerca de las peliculas nominadas a los Oscar",
-        "img": "",
+        "img": "https://github.com/tamaramunoz/Portfolio-react/blob/master/src/images/Hello-im-Oscar.png?raw=true",
         "url": "https://tamaramunoz.github.io/SCL012-proyecto-peliculas/src/index.html"
     },
 
@@ -58,7 +58,7 @@
         "title": "PokeDesk",
         "tools": "Javascript, HTML5, CSS3, Flexbox",
         "description": "Buscador de Pokemones",
-        "img": "",
+        "img": "https://github.com/tamaramunoz/Portfolio-react/blob/master/src/images/Pokedesk.png?raw=true",
         "url": "https://tamaramunoz.github.io/SCL012-data-lovers/src/index.html"
     },
 
@@ -67,7 +67,7 @@
         "title": "Cipher",
         "tools": "Javascript, HTML5, CSS3",
         "description": "Cifrador de mensajes",
-        "img": "",
+        "img": "https://github.com/tamaramunoz/Portfolio-react/blob/master/src/images/Cipher.png?raw=true",
         "url": "https://tamaramunoz.github.io/SCL012-Cipher/src/index.html"
     }
 ]
