@@ -4,6 +4,7 @@
         "title": "Portfolio Tamara Muñoz",
         "tools": "ReactJS, HTML5, CSS3, Bootstrap",
         "description": "Portafolio",
+        "logo": "https://github.com/tamaramunoz/Portfolio-react/blob/master/src/images/logos/portafolio.png?raw=true",
         "img": "https://github.com/tamaramunoz/Portfolio-react/blob/master/src/images/fondo-home.png?raw=true",
         "url": " "
     },
@@ -13,6 +14,7 @@
         "title": "Here",
         "tools": "ReactJS, HTML5, CSS3, Bootstrap, Firebase, API: Here Maps",
         "description": "Proyecto Empresa Here",
+        "logo": "https://github.com/tamaramunoz/Portfolio-react/blob/master/src/images/logos/pet.png?raw=true",
         "img": "https://github.com/tamaramunoz/Portfolio-react/blob/master/src/images/fondo-home.png?raw=true",
         "url": " "
     },
@@ -22,6 +24,7 @@
         "title": "Burger Queen",
         "tools": "ReactJS, HTML5, CSS3, Bootstrap, Firebase",
         "description": "App ",
+        "logo": "https://github.com/tamaramunoz/Portfolio-react/blob/master/src/images/logos/burger-queen.png?raw=true",
         "img": "https://github.com/tamaramunoz/Portfolio-react/blob/master/src/images/fondo-home.png?raw=true",
         "url": " "
     },
@@ -31,6 +34,7 @@
         "title": "md-Links",
         "tools": "NodeJS, npm",
         "description": "Librería instalable ",
+        "logo": "https://github.com/tamaramunoz/Portfolio-react/blob/master/src/images/logos/md-links.png?raw=true",
         "img": "https://github.com/tamaramunoz/Portfolio-react/blob/master/src/images/md-Links.png?raw=true",
         "url": " "
     },
@@ -40,6 +44,7 @@
         "title": "Bitácora",
         "tools": "Javascript, HTML5, CSS3, Flexbox, Firebase ",
         "description": "Social Network",
+        "logo": "https://github.com/tamaramunoz/Portfolio-react/blob/master/src/images/logos/bitacora.png?raw=true",
         "img": "https://github.com/tamaramunoz/Portfolio-react/blob/master/src/images/Bitacora.png?raw=true",
         "url": "https://revaldivieso.github.io/SCL012-Social-Network/src/index.html#/singIn"
     },
@@ -49,6 +54,7 @@
         "title": "Hello, I'm Oscar",
         "tools": "Javascript, HTML5, CSS3, Flexbox, Bootstrap, API: Movie Database",
         "description": "Página Web que consume API para tener información acerca de las peliculas nominadas a los Oscar",
+        "logo": "https://github.com/tamaramunoz/Portfolio-react/blob/master/src/images/logos/oscar.png?raw=true",
         "img": "https://github.com/tamaramunoz/Portfolio-react/blob/master/src/images/Hello-im-Oscar.png?raw=true",
         "url": "https://tamaramunoz.github.io/SCL012-proyecto-peliculas/src/index.html"
     },
@@ -58,6 +64,7 @@
         "title": "PokeDesk",
         "tools": "Javascript, HTML5, CSS3, Flexbox",
         "description": "Buscador de Pokemones",
+        "logo": "https://github.com/tamaramunoz/Portfolio-react/blob/master/src/images/logos/pokedesk.png?raw=true",
         "img": "https://github.com/tamaramunoz/Portfolio-react/blob/master/src/images/Pokedesk.png?raw=true",
         "url": "https://tamaramunoz.github.io/SCL012-data-lovers/src/index.html"
     },
@@ -67,6 +74,7 @@
         "title": "Cipher",
         "tools": "Javascript, HTML5, CSS3",
         "description": "Cifrador de mensajes",
+        "logo": "https://github.com/tamaramunoz/Portfolio-react/blob/master/src/images/logos/cipher.png?raw=true",
         "img": "https://github.com/tamaramunoz/Portfolio-react/blob/master/src/images/Cipher.png?raw=true",
         "url": "https://tamaramunoz.github.io/SCL012-Cipher/src/index.html"
     }
