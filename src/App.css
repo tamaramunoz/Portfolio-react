@@ -84,8 +84,7 @@
 display: flex;
 flex-wrap: wrap;
 justify-content: center;
-
-  margin-bottom: 30px;
+margin-bottom: 30px;
 }
 
 .projectFull {
@@ -94,8 +93,13 @@ justify-content: center;
 }
 
 .projectCards {
-  background-color: #fed330;
+  background-color: #ffd542;
   font-family: 'Sen', sans-serif;
+  color: #033686;
+}
+
+.btn-deploy {
+  color: #ffffff;
 }
 
 .experienceContainer {
@@ -107,25 +111,31 @@ justify-content: center;
 .exp-title {
   font-family: 'Sen', sans-serif;
   color: #271e85;
+}
 
+.exp-tool {
+  font-family: 'Sen', sans-serif;
+  color: #271e85;
+  font-weight: bolder;
 }
 
 .exp-des {
   font-family: 'Sen', sans-serif;
   color: #271e85;
-
 }
 
-.contactInfo {
- text-align: center;
-
+.contact-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 .contactDescription {
   font-family: 'Sen', sans-serif;
   color: #271e85;
   margin-bottom: 25px;
-  
+  text-align: center;
 }
 
 .contactCard {
@@ -134,11 +144,7 @@ justify-content: center;
 }
 
 .carousel-contact {
-  margin-left: 35%;
-  margin-right: 30%;
-  max-width: 30%;
   font-family: 'Sen', sans-serif;
-  
 }
 
 .footer {
@@ -151,14 +157,24 @@ justify-content: center;
 }
 
 
-/* @media only screen and (max-width: 480px) {
-  body {
-    background-image: url(images/background_480.jpg);
+@media all and (max-width: 480px) {
+  .home-container {
+    background-color: white;
   }
+
+  .experienceContainer {
+    margin-left: 10%;
+    margin-right: 10%;
+    align-content: center;
+  }
+
+  .profileText {
+    margin-left: 10%;
+    margin-right: 10%;
+    padding: 25px;
+    text-align: center;
+    font-size: 16px;
 }
 
-@media only screen and (max-width: 1280px) {
-  body {
-    background-image: url(images/background_1280.jpg);
-  }
-} */
+
+}

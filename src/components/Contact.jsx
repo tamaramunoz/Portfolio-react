@@ -15,10 +15,10 @@ const Contact = () => {
 
     return (
         <Fragment>
-            <div>
+            <div className="contact-container">
                 <h2 className="subtitle">Contacto</h2>
 
-                <div className="contactInfo">
+                <div>
                     <p className="contactDescription">Puedes encontrarme en las siguientes redes:</p>
 
                     <div className="carousel-contact responsive">
@@ -50,7 +50,6 @@ const Contact = () => {
                                     <a 
                                         href="https://github.com/tamaramunoz" 
                                         target="blank"
-                                        
                                     > /tamaramunoz </a>
                                 </Carousel.Caption>
                             </Carousel.Item>

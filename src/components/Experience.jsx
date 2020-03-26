@@ -44,6 +44,7 @@ const Experience = () => {
               />
               <Media.Body>
                 <h5 className="exp-title">{item.title}</h5>
+                <h6 className="exp-tool">{item.tools}</h6>
                 <p className="exp-des">
                   {item.description}
                 </p>

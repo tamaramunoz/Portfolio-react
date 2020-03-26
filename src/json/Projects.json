@@ -26,7 +26,7 @@
         "description": "Aplicación para tablets, que sirve para manejar pedidos en restaurantes desde el mesero a la cocina.",
         "logo": "https://github.com/tamaramunoz/Portfolio-react/blob/master/src/images/logos/burger-queen.png?raw=true",
         "img": "https://github.com/tamaramunoz/Portfolio-react/blob/master/src/images/fondo-home.png?raw=true",
-        "url": " "
+        "url": "https://burger-queen-3a295.firebaseapp.com/mesonero"
     },
     
     {

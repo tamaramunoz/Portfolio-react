@@ -1,5 +1,5 @@
 import React, { Fragment } from "react";
-import { Accordion, Card } from "react-bootstrap";
+import { Accordion, Card, Button } from "react-bootstrap";
 
 
 const Accordions = (props) => {
@@ -20,9 +20,9 @@ const Accordions = (props) => {
 
                   <Accordion.Collapse eventKey="1">
                     <Card.Body  className="projectCards">
-                      <Card.Title> {item.tools} </Card.Title>
+                      <Card.Title className="pro-title"> {item.title} </Card.Title>
                       <Card.Text>
-                        {item.description}
+                        <Button ><a href={item.url} target="blank" className="btn-deploy">Ver Deploy</a></Button>
                       </Card.Text>
                     </Card.Body>
                   </Accordion.Collapse>
