@@ -11,9 +11,9 @@
 
     {
         "id": 7,
-        "title": "Here",
+        "title": "Pet Places",
         "tools": "ReactJS, HTML5, CSS3, Bootstrap, Firebase, API: Here Maps",
-        "description": "Proyecto Empresa Here",
+        "description": "Proyecto Empresa Here, donde consumimos los mapas de la compañía para idear una red social con un enfoque inclusivo.",
         "logo": "https://github.com/tamaramunoz/Portfolio-react/blob/master/src/images/logos/pet.png?raw=true",
         "img": "https://github.com/tamaramunoz/Portfolio-react/blob/master/src/images/fondo-home.png?raw=true",
         "url": " "
@@ -23,7 +23,7 @@
         "id": 6,
         "title": "Burger Queen",
         "tools": "ReactJS, HTML5, CSS3, Bootstrap, Firebase",
-        "description": "App ",
+        "description": "Aplicación para tablets, que sirve para manejar pedidos en restaurantes desde el mesero a la cocina.",
         "logo": "https://github.com/tamaramunoz/Portfolio-react/blob/master/src/images/logos/burger-queen.png?raw=true",
         "img": "https://github.com/tamaramunoz/Portfolio-react/blob/master/src/images/fondo-home.png?raw=true",
         "url": " "
@@ -32,8 +32,8 @@
     {
         "id": 5,
         "title": "md-Links",
-        "tools": "NodeJS, npm",
-        "description": "Librería instalable ",
+        "tools": "Javascript utilizando NodeJS, publicada en npm",
+        "description": "Librería instalable que entrega información acerca de urls encontradas en documentos .md",
         "logo": "https://github.com/tamaramunoz/Portfolio-react/blob/master/src/images/logos/md-links.png?raw=true",
         "img": "https://github.com/tamaramunoz/Portfolio-react/blob/master/src/images/md-Links.png?raw=true",
         "url": " "
@@ -43,7 +43,7 @@
         "id": 4,
         "title": "Bitácora",
         "tools": "Javascript, HTML5, CSS3, Flexbox, Firebase ",
-        "description": "Social Network",
+        "description": "Social network para personas que desean compartir información a cerca de trekking y otras actividades outdoor.",
         "logo": "https://github.com/tamaramunoz/Portfolio-react/blob/master/src/images/logos/bitacora.png?raw=true",
         "img": "https://github.com/tamaramunoz/Portfolio-react/blob/master/src/images/Bitacora.png?raw=true",
         "url": "https://revaldivieso.github.io/SCL012-Social-Network/src/index.html#/singIn"
@@ -53,7 +53,7 @@
         "id": 3,
         "title": "Hello, I'm Oscar",
         "tools": "Javascript, HTML5, CSS3, Flexbox, Bootstrap, API: Movie Database",
-        "description": "Página Web que consume API para tener información acerca de las peliculas nominadas a los Oscar",
+        "description": "Aplicación web que consume API para conocer las películas nominadas a los Oscar, su ficha técnica y breve reseña.",
         "logo": "https://github.com/tamaramunoz/Portfolio-react/blob/master/src/images/logos/oscar.png?raw=true",
         "img": "https://github.com/tamaramunoz/Portfolio-react/blob/master/src/images/Hello-im-Oscar.png?raw=true",
         "url": "https://tamaramunoz.github.io/SCL012-proyecto-peliculas/src/index.html"
@@ -63,7 +63,7 @@
         "id": 2,
         "title": "PokeDesk",
         "tools": "Javascript, HTML5, CSS3, Flexbox",
-        "description": "Buscador de Pokemones",
+        "description": "Aplicación para conocer información sobre los personajes del juego Pokémon GO.",
         "logo": "https://github.com/tamaramunoz/Portfolio-react/blob/master/src/images/logos/pokedesk.png?raw=true",
         "img": "https://github.com/tamaramunoz/Portfolio-react/blob/master/src/images/Pokedesk.png?raw=true",
         "url": "https://tamaramunoz.github.io/SCL012-data-lovers/src/index.html"
@@ -73,7 +73,7 @@
         "id": 1,
         "title": "Cipher",
         "tools": "Javascript, HTML5, CSS3",
-        "description": "Cifrador de mensajes",
+        "description": "Web para cifrar mensajes.",
         "logo": "https://github.com/tamaramunoz/Portfolio-react/blob/master/src/images/logos/cipher.png?raw=true",
         "img": "https://github.com/tamaramunoz/Portfolio-react/blob/master/src/images/Cipher.png?raw=true",
         "url": "https://tamaramunoz.github.io/SCL012-Cipher/src/index.html"

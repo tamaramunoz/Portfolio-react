@@ -10,8 +10,10 @@ let sectionStyle = {
 const Home = () => {
     return (
         <Fragment>
-            <div style={ sectionStyle }>
-                <h2 className="subtitle">Hello to Ratsi</h2>
+            <div style={ sectionStyle } className="home-container">
+                <h2 className="hi">Hola!</h2>
+                <h1 className="im">soy Tamara Muñoz</h1>
+                <h3 className="front"> Front-end Developer </h3>
             </div>
         </Fragment>
     );

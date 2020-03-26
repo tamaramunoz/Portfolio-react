@@ -1,7 +1,6 @@
 import React, { Fragment, useEffect, useState } from "react";
 import "../App.css";
 import { Media } from "react-bootstrap";
-import img from "../images/logo.png";
 
 
 const Experience = () => {
@@ -40,12 +39,12 @@ const Experience = () => {
                 width={64}
                 height={64}
                 className="mr-3"
-                src={img}
+                src={item.logo}
                 alt="Generic placeholder"
               />
               <Media.Body>
-                <h5>{item.title}</h5>
-                <p>
+                <h5 className="exp-title">{item.title}</h5>
+                <p className="exp-des">
                   {item.description}
                 </p>
               </Media.Body>

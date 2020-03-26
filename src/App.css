@@ -9,6 +9,7 @@
 .nav {
   background-color: #ffd542;
   font-family: 'Sen', sans-serif;
+  
 }
 
 .navbar-light .navbar-nav .nav-link {
@@ -31,6 +32,41 @@
     color: #033e99;
 }
 
+.home-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.hi {
+  font-family: 'Sen', sans-serif;
+  padding: 30px;
+  color: #033e99;
+  text-align: center;
+}
+
+.im {
+  font-family: 'Sen', sans-serif;
+  padding: 30px;
+  font-size: 50px;
+  color: #033e99;
+  text-align: center;
+}
+
+.front {
+  font-family: 'Sen', sans-serif;
+  padding: 30px;
+  color: #033e99;
+  text-align: center;
+}
+
+.profile {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
 
 .profileText {
   margin-left: 25%;
@@ -62,12 +98,22 @@ justify-content: center;
   font-family: 'Sen', sans-serif;
 }
 
-
-
 .experienceContainer {
-  padding: 15px;
-  margin-left: 20%;
-  margin-right: 15%;
+  margin-left: 25%;
+  margin-right: 20%;
+  align-content: center;
+}
+
+.exp-title {
+  font-family: 'Sen', sans-serif;
+  color: #271e85;
+
+}
+
+.exp-des {
+  font-family: 'Sen', sans-serif;
+  color: #271e85;
+
 }
 
 .contactInfo {
