@@ -1,5 +1,5 @@
 import React, { Fragment } from 'react';
-import Background from '../images/fondo-home.png';
+import Background from '../images/fondo-home2.png';
 
 let sectionStyle = {
     width: "100%",
