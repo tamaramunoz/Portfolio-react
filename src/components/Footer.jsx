@@ -7,7 +7,7 @@ const Footer = () => {
             <Card >
                 <Card.Body className="footer">
                     <footer>
-                        Site created and design by Tamara Muñoz
+                        Site created and designed by Tamara Muñoz
                     </footer>
                 </Card.Body>
             </Card>
