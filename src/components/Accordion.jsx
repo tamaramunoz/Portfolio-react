@@ -22,7 +22,8 @@ const Accordions = (props) => {
                     <Card.Body  className="projectCards">
                       <Card.Title className="pro-title"> {item.title} </Card.Title>
                       <Card.Text>
-                        <Button ><a href={item.url} target="blank" className="btn-deploy">Ver Deploy</a></Button>
+                        <Button className="btn-deploy"><a href={item.url} target="blank" className="btn-deploy-text">Ver Deploy</a></Button>
+                        <Button className="btn-repo"><a href={item.repo} target="blank" >Ver Repositorio</a></Button>
                       </Card.Text>
                     </Card.Body>
                   </Accordion.Collapse>

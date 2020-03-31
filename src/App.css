@@ -99,7 +99,19 @@ margin-bottom: 30px;
 }
 
 .btn-deploy {
+  background-color: #fa7a4c!important;
+  border-color: #fa7a4c!important;
+}
+
+.btn-deploy-text {
   color: #ffffff;
+}
+
+.btn-repo {
+  margin-left: 10px;
+  color: #ffffff;
+  background-color: #fa7a4c!important;
+  border-color: #fa7a4c!important;
 }
 
 .experienceContainer {

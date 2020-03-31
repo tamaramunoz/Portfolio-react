@@ -6,7 +6,8 @@
         "description": "Portafolio",
         "logo": "https://github.com/tamaramunoz/Portfolio-react/blob/master/src/images/logos/portafolio.png?raw=true",
         "img": "https://github.com/tamaramunoz/Portfolio-react/blob/master/src/images/Portafolio.png?raw=true",
-        "url": "https://portfolio-4f3ec.firebaseapp.com/"
+        "url": "https://portfolio-4f3ec.firebaseapp.com/",
+        "repo": "https://github.com/tamaramunoz/Portfolio-react"
     },
 
     {
@@ -15,8 +16,9 @@
         "tools": "ReactJS, HTML5, CSS3, Bootstrap, Firebase, API: Here Maps",
         "description": "Proyecto Empresa Here, donde consumimos los mapas de la compañía para idear una red social con un enfoque inclusivo.",
         "logo": "https://github.com/tamaramunoz/Portfolio-react/blob/master/src/images/logos/pet.png?raw=true",
-        "img": "https://github.com/tamaramunoz/Portfolio-react/blob/master/src/images/fondo-home.png?raw=true",
-        "url": " "
+        "img": "https://github.com/tamaramunoz/Portfolio-react/blob/master/src/images/fondo-home2.png?raw=true",
+        "url": " ",
+        "repo": "https://github.com/tamaramunoz/SCL012-here-app"
     },
 
     {
@@ -26,7 +28,8 @@
         "description": "Aplicación para tablets, que sirve para manejar pedidos en restaurantes desde el mesero a la cocina.",
         "logo": "https://github.com/tamaramunoz/Portfolio-react/blob/master/src/images/logos/burger-queen.png?raw=true",
         "img": "https://github.com/tamaramunoz/Portfolio-react/blob/master/src/images/Burger-queen.png?raw=true",
-        "url": "https://burger-queen-3a295.firebaseapp.com/mesonero"
+        "url": "https://burger-queen-3a295.firebaseapp.com/mesonero",
+        "repo": "https://github.com/tamaramunoz/SCL012-burger-queen"
     },
     
     {
@@ -36,7 +39,8 @@
         "description": "Librería instalable que entrega información acerca de urls encontradas en documentos .md",
         "logo": "https://github.com/tamaramunoz/Portfolio-react/blob/master/src/images/logos/md-links.png?raw=true",
         "img": "https://github.com/tamaramunoz/Portfolio-react/blob/master/src/images/md-Links.png?raw=true",
-        "url": "https://www.npmjs.com/package/md-links-tamara-munoz"
+        "url": "https://www.npmjs.com/package/md-links-tamara-munoz",
+        "repo": "https://github.com/tamaramunoz/SCL012-MD-Links-"
     },
     
     {
@@ -46,7 +50,8 @@
         "description": "Social network para personas que desean compartir información a cerca de trekking y otras actividades outdoor.",
         "logo": "https://github.com/tamaramunoz/Portfolio-react/blob/master/src/images/logos/bitacora.png?raw=true",
         "img": "https://github.com/tamaramunoz/Portfolio-react/blob/master/src/images/Bitacora.png?raw=true",
-        "url": "https://revaldivieso.github.io/SCL012-Social-Network/src/index.html#/singIn"
+        "url": "https://revaldivieso.github.io/SCL012-Social-Network/src/index.html#/singIn",
+        "repo": "https://github.com/tamaramunoz/SCL012-Social-Network"
     },
 
     {
@@ -56,7 +61,8 @@
         "description": "Aplicación web que consume API para conocer las películas nominadas a los Oscar, su ficha técnica y breve reseña.",
         "logo": "https://github.com/tamaramunoz/Portfolio-react/blob/master/src/images/logos/oscar.png?raw=true",
         "img": "https://github.com/tamaramunoz/Portfolio-react/blob/master/src/images/Hello-im-Oscar.png?raw=true",
-        "url": "https://tamaramunoz.github.io/SCL012-proyecto-peliculas/src/index.html"
+        "url": "https://tamaramunoz.github.io/SCL012-proyecto-peliculas/src/index.html",
+        "repo": "https://github.com/tamaramunoz/SCL012-proyecto-peliculas"
     },
 
     {
@@ -66,7 +72,8 @@
         "description": "Aplicación para conocer información sobre los personajes del juego Pokémon GO.",
         "logo": "https://github.com/tamaramunoz/Portfolio-react/blob/master/src/images/logos/pokedesk.png?raw=true",
         "img": "https://github.com/tamaramunoz/Portfolio-react/blob/master/src/images/Pokedesk.png?raw=true",
-        "url": "https://tamaramunoz.github.io/SCL012-data-lovers/src/index.html"
+        "url": "https://tamaramunoz.github.io/SCL012-data-lovers/src/index.html",
+        "repo": "https://github.com/tamaramunoz/SCL012-data-lovers"
     },
 
     {   
@@ -76,6 +83,7 @@
         "description": "Web para cifrar mensajes.",
         "logo": "https://github.com/tamaramunoz/Portfolio-react/blob/master/src/images/logos/cipher.png?raw=true",
         "img": "https://github.com/tamaramunoz/Portfolio-react/blob/master/src/images/Cipher.png?raw=true",
-        "url": "https://tamaramunoz.github.io/SCL012-Cipher/src/index.html"
+        "url": "https://tamaramunoz.github.io/SCL012-Cipher/src/index.html",
+        "repo": "https://github.com/tamaramunoz/SCL012-Cipher"
     }
 ]
