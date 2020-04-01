@@ -13,7 +13,7 @@ const Profile = () => {
         <Fragment>
             <div style={ sectionStyle } className="profile">
                 <h2 className="subtitle">Acerca</h2>
-                <div>
+                <div className="avatar-container">
                     <img 
                         width={400}
                         src={avatar} 
