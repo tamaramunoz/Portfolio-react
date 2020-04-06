@@ -2,7 +2,7 @@
     {   
         "id": 8,
         "title": "Portfolio Tamara Muñoz",
-        "tools": "ReactJS, HTML5, CSS3, Bootstrap",
+        "tools": "ReactJS, HTML5, CSS3, Bootstrap, Firebase",
         "description": "Portafolio",
         "logo": "https://github.com/tamaramunoz/Portfolio-react/blob/master/src/images/logos/portafolio.png?raw=true",
         "img": "https://github.com/tamaramunoz/Portfolio-react/blob/master/src/images/Portafolio.png?raw=true",
@@ -16,8 +16,8 @@
         "tools": "ReactJS, HTML5, CSS3, Bootstrap, Firebase, API: Here Maps",
         "description": "Proyecto Empresa Here, donde consumimos los mapas de la compañía para idear una red social con un enfoque inclusivo.",
         "logo": "https://github.com/tamaramunoz/Portfolio-react/blob/master/src/images/logos/pet.png?raw=true",
-        "img": "https://github.com/tamaramunoz/Portfolio-react/blob/master/src/images/fondo-home2.png?raw=true",
-        "url": " ",
+        "img": "https://github.com/tamaramunoz/Portfolio-react/blob/master/src/images/Pet-places.png?raw=true",
+        "url": "https://here-61f73.web.app/",
         "repo": "https://github.com/tamaramunoz/SCL012-here-app"
     },
 
@@ -25,7 +25,7 @@
         "id": 6,
         "title": "Burger Queen",
         "tools": "ReactJS, HTML5, CSS3, Bootstrap, Firebase",
-        "description": "Aplicación para tablets, que sirve para manejar pedidos en restaurantes desde el mesero a la cocina.",
+        "description": "Interfaz web para tablets, que sirve para manejar pedidos en restaurantes desde el mesero a la cocina.",
         "logo": "https://github.com/tamaramunoz/Portfolio-react/blob/master/src/images/logos/burger-queen.png?raw=true",
         "img": "https://github.com/tamaramunoz/Portfolio-react/blob/master/src/images/Burger-queen.png?raw=true",
         "url": "https://burger-queen-3a295.firebaseapp.com/mesonero",
@@ -47,7 +47,7 @@
         "id": 4,
         "title": "Bitácora",
         "tools": "Javascript, HTML5, CSS3, Flexbox, Firebase ",
-        "description": "Social network para personas que desean compartir información a cerca de trekking y otras actividades outdoor.",
+        "description": "Social Network para personas que desean compartir información a cerca de trekking y otras actividades outdoor.",
         "logo": "https://github.com/tamaramunoz/Portfolio-react/blob/master/src/images/logos/bitacora.png?raw=true",
         "img": "https://github.com/tamaramunoz/Portfolio-react/blob/master/src/images/Bitacora.png?raw=true",
         "url": "https://revaldivieso.github.io/SCL012-Social-Network/src/index.html#/singIn",
