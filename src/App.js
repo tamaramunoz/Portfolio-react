@@ -46,9 +46,6 @@ function App() {
         <Route path="/contact" component={Contact} />
 
       </Router>
-      <footer>
-        <Footer />
-      </footer>
     </Fragment>
   );
 }

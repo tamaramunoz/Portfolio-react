@@ -25,47 +25,50 @@ const Contact = () => {
                         <Carousel activeIndex={index} onSelect={handleSelect}>
 
                             <Carousel.Item>
-                                <img
-                                    className="d-block w-100"
-                                    src={gmail}
-                                    alt="First slide"
-                                />
+                                <a href="mailto:tami.skt@gmail.com?Subject=Contact%20Tamara" target="blank">
+                                    <img
+                                        className="d-block "
+                                        src={gmail}
+                                        alt="First slide"
+                                    />
+                                </a>
                                 <Carousel.Caption>
-                                    <h3 className="contactCard">Correo</h3>
-                                    <a 
-                                        href="https://mail.google.com/mail/u/0/#inbox" 
-                                        target="blank"
-                                    > tami.skt@gmail.com </a>
+                                    <a href="https://mail.google.com/mail/u/0/#inbox" target="blank">
+                                        <h3 className="contactCard">Correo</h3>
+                                     tami.skt@gmail.com </a>
                                 </Carousel.Caption>
                             </Carousel.Item>
 
                             <Carousel.Item>
-                                <img
-                                    className="d-block w-100"
-                                    src={github}
-                                    alt="Second slide"
-                                />
+                                <a href="https://github.com/tamaramunoz" target="blank">
+                                    <img
+                                        className="d-block"
+                                        src={github}
+                                        alt="Second slide"
+                                    />
+                                </a>
                                 <Carousel.Caption>
-                                    <h3 className="contactCard">GitHub</h3>
-                                    <a 
-                                        href="https://github.com/tamaramunoz" 
-                                        target="blank"
-                                    > /tamaramunoz </a>
+                                    <a href="https://github.com/tamaramunoz" target="blank">
+                                        <h3 className="contactCard">GitHub</h3>
+                                    </a>
                                 </Carousel.Caption>
                             </Carousel.Item>
 
                             <Carousel.Item>
-                                <img
-                                    className="d-block w-100"
-                                    src={linkedin}
-                                    alt="Third slide"
-                                />
+                                <a href="https://www.linkedin.com/in/tamara-munoz-zamora/" target="blank">
+                                    <img
+                                        className="d-block "
+                                        src={linkedin}
+                                        alt="Third slide"
+                                    />
+                                </a>
                                 <Carousel.Caption>
-                                    <h3 className="contactCard">LinkedIn</h3>
-                                    <a href="https://www.linkedin.com/in/tamara-munoz-zamora/" target="blank"> /tamara-munoz-zamora </a>
+                                    <a href="https://www.linkedin.com/in/tamara-munoz-zamora/" target="blank">
+                                        <h3 className="contactCard">LinkedIn</h3>
+                                    </a>
                                 </Carousel.Caption>
                             </Carousel.Item>
-                            
+
                         </Carousel>
                     </div>
                 </div>
