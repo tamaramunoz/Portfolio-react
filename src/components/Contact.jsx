@@ -17,9 +17,14 @@ const Contact = () => {
         <Fragment>
             <div className="contact-container">
                 <h2 className="subtitle">Contacto</h2>
+                <div>
+                <p className="contactDescription">
+                    Si te gustó mi trabajo o quieres conocer más acerca de mi <br/>
+                    y mi experiencia como front, ¡Contáctame!</p>
+                </div>
 
                 <div>
-                    <p className="contactDescription">Puedes encontrarme en las siguientes redes:</p>
+
 
                     <div className="carousel-contact responsive">
                         <Carousel activeIndex={index} onSelect={handleSelect}>
