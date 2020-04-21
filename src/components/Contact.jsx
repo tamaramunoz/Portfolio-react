@@ -24,8 +24,6 @@ const Contact = () => {
                 </div>
 
                 <div>
-
-
                     <div className="carousel-contact responsive">
                         <Carousel activeIndex={index} onSelect={handleSelect}>
 
@@ -34,13 +32,13 @@ const Contact = () => {
                                     <img
                                         className="d-block "
                                         src={gmail}
-                                        alt="First slide"
+                                        alt="Mail"
                                     />
                                 </a>
                                 <Carousel.Caption>
                                     <a href="https://mail.google.com/mail/u/0/#inbox" target="blank">
-                                        <h3 className="contactCard">Correo</h3>
-                                     tami.skt@gmail.com </a>
+                                    </a>
+                                    
                                 </Carousel.Caption>
                             </Carousel.Item>
 
@@ -49,12 +47,11 @@ const Contact = () => {
                                     <img
                                         className="d-block"
                                         src={github}
-                                        alt="Second slide"
+                                        alt="Github"
                                     />
                                 </a>
                                 <Carousel.Caption>
                                     <a href="https://github.com/tamaramunoz" target="blank">
-                                        <h3 className="contactCard">GitHub</h3>
                                     </a>
                                 </Carousel.Caption>
                             </Carousel.Item>
@@ -64,12 +61,11 @@ const Contact = () => {
                                     <img
                                         className="d-block "
                                         src={linkedin}
-                                        alt="Third slide"
+                                        alt="LindedIn"
                                     />
                                 </a>
                                 <Carousel.Caption>
                                     <a href="https://www.linkedin.com/in/tamara-munoz-zamora/" target="blank">
-                                        <h3 className="contactCard">LinkedIn</h3>
                                     </a>
                                 </Carousel.Caption>
                             </Carousel.Item>
@@ -77,6 +73,7 @@ const Contact = () => {
                         </Carousel>
                     </div>
                 </div>
+                <p className="mail">tami.skt@gmail.com</p>
             </div>
         </Fragment>
     );

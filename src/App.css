@@ -144,6 +144,7 @@ margin-bottom: 30px;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  margin-bottom: 30px;
 }
 
 .contactDescription {
@@ -156,13 +157,13 @@ margin-bottom: 30px;
   border-radius: 20px;
 }
 
-.contactCard {
-  font-family: 'Sen', sans-serif;
-  color: #271e85;
-}
-
 .carousel-contact {
   font-family: 'Sen', sans-serif;
+}
+
+.mail {
+  font-family: 'Sen', sans-serif;
+  color: #271e85;
 }
 
 .footer {
@@ -192,6 +193,20 @@ margin-bottom: 30px;
     text-align: center;
     font-size: 16px;
 }
+
+.contactDescription {
+  font-size: 16px;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+.d-block {
+  width: 70%;
+  margin-top: 10px;
+  margin-left: 15%;
+}
+
+
 }
 
 
@@ -216,4 +231,11 @@ margin-bottom: 30px;
     text-align: center;
     font-size: 16px;
 }
+
+.d-block {
+  width: 60%;
+  margin-left: 20%;
+}
+
+
 }
