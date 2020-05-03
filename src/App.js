@@ -4,7 +4,6 @@ import { Navbar, Nav } from 'react-bootstrap'
 import icono from './images/icono-portafolio.png'
 import Home from './components/Home'
 import Profile from './components/Profile';
-import Portfolio from './components/Portfolio';
 import Experience from './components/Experience';
 import Contact from './components/Contact';
 
@@ -28,9 +27,6 @@ function App() {
                 <Link to="/portfolio" className="nav-link">Portafolio</Link>
               </li>
               <li className="nav-item">
-                <Link to="/experience" className="nav-link">Experiencia</Link>
-              </li>
-              <li className="nav-item">
                 <Link to="/contact" className="nav-link">Contacto</Link>
               </li>
             </Nav>
@@ -40,8 +36,7 @@ function App() {
 
         <Route exact path="/" component={Home} />
         <Route path="/profile" component={Profile} />
-        <Route path="/portfolio" component={Portfolio} />
-        <Route path="/experience" component={Experience} />
+        <Route path="/portfolio" component={Experience} />
         <Route path="/contact" component={Contact} />
 
       </Router>

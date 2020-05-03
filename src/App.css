@@ -157,13 +157,31 @@ margin-bottom: 30px;
   border-radius: 20px;
 }
 
-.carousel-contact {
+.card {
+  margin-top: 20px;
+}
+
+img.img-contact{
+  width: 50%;
+  margin: 0 auto;
+  display: table-row;
+}
+
+.btn-contact{
+  padding: 20px;
+  border-style: none;
+  border-radius: 20px;
+  font-size: 19px;
+  background-color: #3e35a2;
+  color: #ffeba8;
   font-family: 'Sen', sans-serif;
 }
 
-.mail {
+.e-mail {
+  margin-top: 15px;
+  font-size: 18px;
   font-family: 'Sen', sans-serif;
-  color: #271e85;
+  color: #3e35a2;
 }
 
 .footer {
@@ -192,19 +210,14 @@ margin-bottom: 30px;
     padding: 20px;
     text-align: center;
     font-size: 16px;
-}
+  }
 
-.contactDescription {
-  font-size: 16px;
-  margin-left: 10%;
-  margin-right: 10%;
-}
+  .contactDescription {
+    font-size: 16px;
+    margin-left: 10%;
+    margin-right: 10%;
+  }
 
-.d-block {
-  width: 70%;
-  margin-top: 10px;
-  margin-left: 15%;
-}
 
 
 }
@@ -232,10 +245,7 @@ margin-bottom: 30px;
     font-size: 16px;
 }
 
-.d-block {
-  width: 60%;
-  margin-left: 20%;
-}
+
 
 
 }

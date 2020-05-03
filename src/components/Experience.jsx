@@ -1,11 +1,11 @@
 import React, { Fragment, useEffect, useState } from "react";
 import "../App.css";
-import { Media } from "react-bootstrap";
+import Accordions from "./Accordion"
 
 
-const Experience = () => {
+const Experience = (props) => {
 
-  const [ works, setWorks ] = useState([]);
+    const [project, setProject] = useState([]);
 
     useEffect(() => {
         getData()
@@ -13,53 +13,30 @@ const Experience = () => {
 
     const getData = async () => {
         const data = await fetch('https://raw.githubusercontent.com/tamaramunoz/Portfolio-react/master/src/json/Projects.json')
-        const infoProjects = await data.json()
-        // console.log(infoProjects)
-        setWorks(infoProjects)
+        const infoProject = await data.json()
+        // console.log(infoProject)
+        setProject(infoProject)
     }
 
-    console.log(works)
+    return (
+        <Fragment>
+            <div>
+                <h2 className="subtitle">Portafolio</h2>
+                <div className="projectsContainer">
 
-  const isBackgroundWhite = true;
+                    <p className="profileText">
+                        Proyectos en los que he trabajado integrando tecnologías como Javascript, HTML5, CSS3, NodeJS, React, Bootstrap, Firebase, y más. Puedes conocer más a fondo uno a uno los proyectos de esta sección.
+                    </p>
+                    
+                    <div>
+                        <Accordions project={project} />
+                    </div>
 
-  return (
-    <Fragment>
+                </div>
 
-      <div className={isBackgroundWhite ? "background-white" : "background-blue"}>
-
-        <h2 className="subtitle">Experiencia</h2>
-
-        <div className="experienceContainer">
-
-        { works.map(item => {
-          return (
-          <ul className="list-unstyled" key={item.id}>
-            <Media as="li">
-              <img
-                width={64}
-                height={64}
-                className="mr-3"
-                src={item.logo}
-                alt="Generic placeholder"
-              />
-              <Media.Body>
-                <h5 className="exp-title">{item.title}</h5>
-                <h6 className="exp-tool">{item.tools}</h6>
-                <p className="exp-des">
-                  {item.description}
-                </p>
-              </Media.Body>
-            </Media>
-          </ul>
-          )
-        })
-      }
-        </div>
-
-      </div>
-
-    </Fragment>
-  );
+            </div>
+        </Fragment>
+    );
 };
 
 export default Experience;

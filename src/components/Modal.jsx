@@ -8,7 +8,6 @@ const Portfolio = () => {
     const [ project, setProject ] = useState([]);
 
     useEffect(() => {
-        // console.log('useEffect')
         getData()
     }, [])
 

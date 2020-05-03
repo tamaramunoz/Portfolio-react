@@ -1,79 +1,61 @@
-import React, { Fragment, useState } from 'react';
+import React, { Fragment } from 'react';
 import gmail from '../images/contactCard-gmail.png'
 import github from '../images/contactCard-github.png'
 import linkedin from '../images/contactCard-linkedin.png'
-import { Carousel } from 'react-bootstrap'
+import { CardGroup, Card } from 'react-bootstrap'
 
 
 const Contact = () => {
-
-    const [index, setIndex] = useState(0);
-
-    const handleSelect = (selectedIndex, e) => {
-        setIndex(selectedIndex);
-    };
 
     return (
         <Fragment>
             <div className="contact-container">
                 <h2 className="subtitle">Contacto</h2>
                 <div>
-                <p className="contactDescription">
-                    Si te gustó mi trabajo o quieres conocer más acerca de mi <br/>
+                    <p className="contactDescription">
+                        Si te gustó mi trabajo o quieres conocer más acerca de mi <br />
                     y mi experiencia como front, ¡Contáctame!</p>
                 </div>
 
                 <div>
-                    <div className="carousel-contact responsive">
-                        <Carousel activeIndex={index} onSelect={handleSelect}>
-
-                            <Carousel.Item>
-                                <a href="mailto:tami.skt@gmail.com?Subject=Contact%20Tamara" target="blank">
-                                    <img
-                                        className="d-block "
-                                        src={gmail}
-                                        alt="Mail"
-                                    />
+                    <CardGroup >
+                        <Card className="card">
+                            <a href="mailto:tami.skt@gmail.com" target="blank" >
+                                <img src={gmail} alt="Gmail" className="img-contact" />
+                            </a>
+                            <Card.Body>
+                                <a href="mailto:tami.skt@gmail.com" target="blank">
+                                    <button className="btn-contact">Gmail</button>
                                 </a>
-                                <Carousel.Caption>
-                                    <a href="https://mail.google.com/mail/u/0/#inbox" target="blank">
-                                    </a>
-                                    
-                                </Carousel.Caption>
-                            </Carousel.Item>
+                                <Card.Text className="e-mail">
+                                    tami.skt@gmail.com
+                                 </Card.Text>
+                            </Card.Body>
+                        </Card>
 
-                            <Carousel.Item>
+                        <Card>
+                            <a href="https://github.com/tamaramunoz" target="blank">
+                                <img src={github} alt="Github" className="img-contact" />
+                            </a>
+                            <Card.Body>
                                 <a href="https://github.com/tamaramunoz" target="blank">
-                                    <img
-                                        className="d-block"
-                                        src={github}
-                                        alt="Github"
-                                    />
+                                    <button className="btn-contact">Github</button>
                                 </a>
-                                <Carousel.Caption>
-                                    <a href="https://github.com/tamaramunoz" target="blank">
-                                    </a>
-                                </Carousel.Caption>
-                            </Carousel.Item>
+                            </Card.Body>
+                        </Card>
 
-                            <Carousel.Item>
+                        <Card>
+                            <a href="https://www.linkedin.com/in/tamara-munoz-zamora/" target="blank">
+                                <img src={linkedin} alt="LinkedIn" className="img-contact" />
+                            </a>
+                            <Card.Body>
                                 <a href="https://www.linkedin.com/in/tamara-munoz-zamora/" target="blank">
-                                    <img
-                                        className="d-block "
-                                        src={linkedin}
-                                        alt="LindedIn"
-                                    />
+                                    <button className="btn-contact">LinkedIn</button>
                                 </a>
-                                <Carousel.Caption>
-                                    <a href="https://www.linkedin.com/in/tamara-munoz-zamora/" target="blank">
-                                    </a>
-                                </Carousel.Caption>
-                            </Carousel.Item>
-
-                        </Carousel>
-                    </div>
+                            </Card.Body>
+                        </Card>
+                    </CardGroup>
                 </div>
-                <p className="mail">tami.skt@gmail.com</p>
             </div>
         </Fragment>
     );

@@ -1,17 +1,11 @@
 import React, { Fragment } from 'react'
 import avatar from '../images/avatar.png'
-import Background from '../images/fondo-white.png';
 
-let sectionStyle = {
-    width: "100%",
-    height: "700px",
-    backgroundImage: `url(${Background})`
-  };
 
 const Profile = () => {
     return (
         <Fragment>
-            <div style={ sectionStyle } className="profile">
+            <div className="profile">
                 <h2 className="subtitle">Acerca</h2>
                 <div className="avatar-container">
                     <img 
