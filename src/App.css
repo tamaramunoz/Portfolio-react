@@ -58,6 +58,17 @@ body {
   text-align: center;
 }
 
+.btn-cv {
+  margin-top: 60px;
+  padding: 20px;
+  border-radius: 20px;
+  border-style: none;
+  background-color: #3e35a2;
+  color: #ffeba8;
+  font-size: 19px;
+  font-family: 'Sen', sans-serif;
+}
+
 .front {
   font-family: 'Sen', sans-serif;
   padding: 30px;
@@ -189,7 +200,6 @@ img.img-contact{
   font-family: 'Sen', sans-serif;
   background-color: #3e35a2;
   color: #ffeba8;
-  
 }
 
 .btn-contact-gmail {

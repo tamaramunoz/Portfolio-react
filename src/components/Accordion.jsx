@@ -8,12 +8,12 @@ const Accordions = (props) => {
     <Fragment>
       <div className="projectContainer">
 
-        { props.project.map(item => {
+        {props.project.map(item => {
           return (
             <div key={item.id} className="projectFull">
               <Accordion defaultActiveKey="0">
                 <Card style={{ width: '20rem' }}>
-                
+
                   <Accordion.Toggle as={Card.Header} eventKey="1">
                     <Card.Img variant="top" src={item.img} />
                     <Card.Title >{item.title}</Card.Title>
@@ -21,8 +21,8 @@ const Accordions = (props) => {
                   </Accordion.Toggle>
 
                   <Accordion.Collapse eventKey="1">
-                    <Card.Body  className="projectCards">
-                        <p> {item.description} </p>
+                    <Card.Body className="projectCards">
+                      <p> {item.description} </p>
                       <Card.Text>
                         <Button className="btn-deploy"><a href={item.url} target="blank" className="btn-deploy-text">Ver Deploy</a></Button>
                         <Button className="btn-repo"><a href={item.repo} target="blank" className="btn-repo-text">Ver Repositorio</a></Button>
@@ -34,7 +34,7 @@ const Accordions = (props) => {
               </Accordion>
             </div>
           );
-        }) }
+        })}
       </div>
     </Fragment>
   );
