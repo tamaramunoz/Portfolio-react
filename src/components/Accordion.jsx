@@ -12,7 +12,7 @@ const Accordions = (props) => {
           return (
             <div key={item.id} className="projectFull">
               <Accordion defaultActiveKey="0">
-                <Card style={{ width: '30rem' }}>
+                <Card style={{ width: '20rem' }}>
                 
                   <Accordion.Toggle as={Card.Header} eventKey="1">
                     <Card.Img variant="top" src={item.img} />

@@ -3,7 +3,7 @@ import "../App.css";
 import Accordions from "./Accordion"
 
 
-const Experience = (props) => {
+const Experience = () => {
 
     const [project, setProject] = useState([]);
 
@@ -25,7 +25,7 @@ const Experience = (props) => {
                 <div className="projectsContainer">
 
                     <p className="profileText">
-                        Proyectos en los que he trabajado integrando tecnologías como Javascript, HTML5, CSS3, NodeJS, React, Bootstrap, Firebase, y más. Puedes conocer más a fondo uno a uno los proyectos de esta sección.
+                        Puedes conocer más a fondo uno a uno los proyectos de esta sección viendo su deploy o repositorio. Desarrollados con tecnologías como Javascript, HTML5, CSS3, NodeJS, React, Bootstrap, Firebase, y entre otras.
                     </p>
                     
                     <div>

@@ -25,7 +25,7 @@ const Contact = () => {
                             </a>
                             <Card.Body>
                                 <a href="mailto:tami.skt@gmail.com" target="blank">
-                                    <button className="btn-contact">Gmail</button>
+                                    <button className="btn-contact-gmail">Gmail</button>
                                 </a>
                                 <Card.Text className="e-mail">
                                     tami.skt@gmail.com
