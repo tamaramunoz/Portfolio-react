@@ -103,6 +103,13 @@ margin-bottom: 30px;
 
 }
 
+.card-title {
+  padding: 20px;
+  background-color: #3e35a2;
+  color: #ffeba8;
+
+}
+
 .projectCards {
   background-color: #ffd542;
   font-family: 'Sen', sans-serif;
