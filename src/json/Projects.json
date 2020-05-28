@@ -28,8 +28,8 @@
         "description": "Interfaz web para tablets, que sirve para manejar pedidos en restaurantes desde el mesero a la cocina.",
         "logo": "https://github.com/tamaramunoz/Portfolio-react/blob/master/src/images/logos/burger-queen.png?raw=true",
         "img": "https://github.com/tamaramunoz/Portfolio-react/blob/master/src/images/Burger-queen.png?raw=true",
-        "url": "https://burger-queen-3a295.firebaseapp.com/mesonero",
-        "repo": "https://github.com/tamaramunoz/SCL012-burger-queen"
+        "url": "https://burger-queen-react-95a4d.web.app/",
+        "repo": "https://github.com/tamaramunoz/SCL012-Burger-Queen-React"
     },
     
     {
