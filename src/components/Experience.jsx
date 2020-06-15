@@ -1,6 +1,7 @@
-import React, { Fragment, useEffect, useState } from "react";
-import "../App.css";
-import Accordions from "./Accordion"
+import React, { Fragment, useEffect, useState } from 'react'
+import '../App.css'
+import Accordions from './Accordion'
+import { db } from '../Backend/firebase'
 
 
 const Experience = () => {
@@ -8,15 +9,21 @@ const Experience = () => {
     const [project, setProject] = useState([]);
 
     useEffect(() => {
-        getData()
+        getProjects()
     }, [])
 
-    const getData = async () => {
-        const data = await fetch('https://raw.githubusercontent.com/tamaramunoz/Portfolio-react/master/src/json/Projects.json')
-        const infoProject = await data.json()
-        // console.log(infoProject)
-        setProject(infoProject)
-    }
+    const getProjects = async () => {
+
+        try {
+          const data = await db.collection('projects').orderBy('date', 'desc').get()
+          const arrayData = data.docs.map(doc => ({ id: doc.id, ...doc.data() }))
+        //   console.log(arrayData);
+          setProject(arrayData)
+  
+        } catch (error) {
+          console.log(error)
+        }
+      }
 
     return (
         <Fragment>

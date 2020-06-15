@@ -1,5 +1,5 @@
 import React, { Fragment, useState, useEffect } from 'react'
-import Accordions from "./Accordion"
+import Accordions from './Accordion'
 
 
 const Portfolio = () => {
@@ -16,6 +16,7 @@ const Portfolio = () => {
         // console.log(infoProject)
         setProject(infoProject)
     }
+  
 
     return (
         <Fragment>
