@@ -13,11 +13,9 @@ const Experience = () => {
     }, [])
 
     const getProjects = async () => {
-
         try {
           const data = await db.collection('projects').orderBy('date', 'desc').get()
           const arrayData = data.docs.map(doc => ({ id: doc.id, ...doc.data() }))
-        //   console.log(arrayData);
           setProject(arrayData)
   
         } catch (error) {
@@ -46,4 +44,4 @@ const Experience = () => {
     );
 };
 
-export default Experience;
+export default Experience
