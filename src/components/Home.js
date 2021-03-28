@@ -32,7 +32,7 @@ const Home = () => {
                 </a>
 
                 <button onClick={() => setIsVisible(v => !v)} >
-                    Clickeame
+                    Hola
                 </button>
 
                 <div>
