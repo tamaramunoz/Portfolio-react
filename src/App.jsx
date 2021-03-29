@@ -2,7 +2,7 @@ import React, {Fragment} from 'react';
 import { BrowserRouter as Router, Route, Link } from "react-router-dom";
 import { Navbar, Nav } from 'react-bootstrap'
 import icono from './images/icono-portafolio.png'
-import Home from './components/Home.js'
+import Home from './components/Home'
 import Profile from './components/Profile';
 import Experience from './components/Experience';
 import Contact from './components/Contact';

@@ -1,6 +1,7 @@
 import React, { Fragment, useState } from 'react'
 import Background from '../images/fondo-home.png'
 import CVTamara from '../images/Tamara-2020.pdf'
+import { Button } from 'antd'
 
 import { useTransition, animated } from 'react-spring'
 
@@ -31,9 +32,9 @@ const Home = () => {
                     <button className="btn-cv">Ver Curriculum</button>
                 </a>
 
-                <button onClick={() => setIsVisible(v => !v)} >
+                <Button onClick={() => setIsVisible(v => !v)} >
                     Hola
-                </button>
+                </Button>
 
                 <div>
                     {
