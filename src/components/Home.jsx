@@ -21,7 +21,6 @@ const Home = () => {
         leave: { x: 100, y: 800, opacity: 0 },
     });
 
-
     return (
         <Fragment>
             <div style={sectionStyle} className="home-container">

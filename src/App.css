@@ -13,11 +13,10 @@ body {
 .nav {
   background-color: #ffd542;
   font-family: 'Sen', sans-serif;
-  
 }
 
 .navbar-light .navbar-nav .nav-link {
-  color: #271e85!important;
+  color: #545454 !important;
 }
 
 .background-white {
