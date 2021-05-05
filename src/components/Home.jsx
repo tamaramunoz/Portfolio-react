@@ -63,7 +63,7 @@ const Home = () => {
                 </div>
 
                 <h1 className="home__iam">I am Tamara Muñoz</h1>
-                <h3 className="front"> Front-end Developer </h3>
+                <h3 className="home__front"> Front-end Developer </h3>
 
                 <div className='home__cv' >
                     <a href={CVTamara} target="blank">

@@ -1,5 +1,7 @@
 @import "../custom.scss";
 
+$mainColor:  #bfaee3;
+
 .home {
     font-family: 'Poppins', sans-serif;
     display: flex;
@@ -14,7 +16,7 @@
     &__iam {
         display: flex;
         justify-content: center;
-        color: #bfaee3;
+        color: $mainColor;
     }
 
     &__cv {
@@ -26,5 +28,11 @@
             border-radius: 20px;
             font-size: 19px;
         }
+    }
+
+    &__front {
+        padding: 30px;
+        text-align: center;
+        color: $mainColor;
     }
 }
