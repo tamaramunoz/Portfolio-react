@@ -2,7 +2,7 @@ import React, {Fragment} from 'react';
 import { BrowserRouter as Router, Route, Link } from "react-router-dom";
 import { Navbar, Nav } from 'react-bootstrap'
 import icono from './images/icono-portafolio.png'
-import Home from './components/Home'
+import Home from './components/home/Home'
 import Profile from './components/Profile';
 import Experience from './components/Experience';
 import Contact from './components/Contact';
@@ -18,16 +18,16 @@ function App() {
           <Navbar.Collapse id="basic-navbar-nav">
             <Nav className="mr-auto">
               <li className="nav-item">
-                <Link to="/" className="nav-link">Home</Link>
+                <Link to="/" className="nav-link">HOME</Link>
               </li>
               <li className="nav-item">
-                <Link to="/profile" className="nav-link">Perfil</Link>
+                <Link to="/profile" className="nav-link">PROFILE</Link>
               </li>
               <li className="nav-item">
-                <Link to="/portfolio" className="nav-link">Portafolio</Link>
+                <Link to="/portfolio" className="nav-link">PORTFOLIO</Link>
               </li>
               <li className="nav-item">
-                <Link to="/contact" className="nav-link">Contacto</Link>
+                <Link to="/contact" className="nav-link">CONTACT</Link>
               </li>
             </Nav>
           </Navbar.Collapse>
