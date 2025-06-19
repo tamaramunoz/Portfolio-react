@@ -1,6 +1,5 @@
-import React, { Fragment } from 'react'
+import React from 'react'
 import Background from '../images/fondo-home.png'
-import CVTamara from '../images/Tamara-2020.pdf'
 
 let sectionStyle = {
     width: "100%",
@@ -9,20 +8,13 @@ let sectionStyle = {
   };
 
 const Home = () => {
-    return (
-        <Fragment>
-            <div style={ sectionStyle } className="home-container">
-                <h2 className="hi">Hola!</h2>
-                <h1 className="im">soy Tamara Muñoz</h1>
-                <h3 className="front"> Front-end Developer </h3>
-
-                <a href={CVTamara} target="blank">
-                    <button className="btn-cv">Ver Curriculum</button>
-                </a>
-
-            </div>
-        </Fragment>
-    );
+  return (
+    <div style={ sectionStyle } className="home-container">
+      <h2 className="hi">Hola!</h2>
+      <h1 className="im">soy Tamara Muñoz</h1>
+      <h3 className="front"> Front-end Developer </h3>
+    </div>
+  );
 }
 
 export default Home;

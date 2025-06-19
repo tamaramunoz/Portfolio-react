@@ -54,8 +54,4 @@
 
 ## Stack utilizado:
 - React-Hooks
-- Firebase Database
-- Firebase Hosting
-- Firebase Storage
-- React-bootstrap
 - CSS3 - Flexbox
