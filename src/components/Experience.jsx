@@ -1,47 +1,19 @@
-import React, { Fragment, useEffect, useState } from 'react'
-import '../App.css'
-import Accordions from './Accordion'
-import { db } from '../Backend/firebase'
-
+import React from 'react';
+import '../App.css';
 
 const Experience = () => {
+  return (
+    <div>
+      <h2 className="subtitle">Portafolio</h2>
+      <div className="projectsContainer">
 
-    const [project, setProject] = useState([]);
-
-    useEffect(() => {
-        getProjects()
-    }, [])
-
-    const getProjects = async () => {
-        try {
-          const data = await db.collection('projects').orderBy('date', 'desc').get()
-          const arrayData = data.docs.map(doc => ({ id: doc.id, ...doc.data() }))
-          setProject(arrayData)
-  
-        } catch (error) {
-          console.log(error)
-        }
-      }
-
-    return (
-        <Fragment>
-            <div>
-                <h2 className="subtitle">Portafolio</h2>
-                <div className="projectsContainer">
-
-                    <p className="profileText">
-                        Puedes conocer más a fondo uno a uno los proyectos de esta sección viendo su deploy o repositorio. Desarrollados con tecnologías como Javascript, HTML5, CSS3, NodeJS, React, Bootstrap, Firebase, Git and Github, entre otras.
-                    </p>
-                    
-                    <div>
-                        <Accordions project={project} />
-                    </div>
-
-                </div>
-
-            </div>
-        </Fragment>
-    );
+        <p className="profileText">
+            Puedes conocer más a fondo uno a uno los proyectos de esta sección viendo su deploy o repositorio. Desarrollados con tecnologías como Javascript, HTML5, CSS3, NodeJS, React, Bootstrap, Firebase, Git and Github, entre otras.
+        </p>
+        
+      </div>
+    </div>
+  );
 };
 
 export default Experience
