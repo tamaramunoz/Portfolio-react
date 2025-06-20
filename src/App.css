@@ -1,79 +1,122 @@
+:root {
+  --primary-color: #EB73FF;
+  --text-light: #ffffff;
+  --text-dark: #463997;
+  --text-yellow: #FFF6D2;
+  --button-first: #5484FF;
+  --button-last: #FF4DED;
+}
+
+.fredoka-regular {
+  font-family: "Fredoka", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+  font-variation-settings: "wdth" 100;
+}
+
 *{
   padding: 0;
   margin: 0;
-  background-attachment: fixed;
-  background-repeat: no-repeat;
-  background-size: cover;
+  scroll-behavior: smooth;
 }
 
-body {
-  height: 100%;
+.app-container {
+  background: var(--primary-color);
+  background: linear-gradient(170deg,rgba(235, 115, 255, 1) 0%, rgba(253, 151, 255, 1) 52%, rgba(127, 115, 255, 1) 100%);
+  min-height: 100vh;
 }
 
-.nav {
-  background-color: #ffd542;
-  font-family: 'Sen', sans-serif;
-  
+.navbar {
+  padding: 10px 20px;
+  display: flex;
+  justify-content: right;
+  gap: 30px;
+  z-index: 1000;
+  background-color: var(--primary-color);
 }
 
-.navbar-light .navbar-nav .nav-link {
-  color: #271e85!important;
+.navbar a {
+  font-family: "Sen", sans-serif;
+  color: var(--text-light);
+  text-decoration: none;
+  font-weight: lighter;
 }
 
-.background-white {
-    background-color: #ffffff;
-  }
-  
-  .background-blue {
-    background-color: #2d98da;
-  }
+.section {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center
+}
 
 .subtitle {
-    font-family: 'Sen', sans-serif;
-    padding: 30px;
-    text-align: center;
-    font-size: 50px;
-    color: #033e99;
+  font-family: "Fredoka", sans-serif;
+  margin: 3rem 0;
+  text-align: center;
+  font-size: 40px;
+  font-weight: 600;
+  color: var(--text-light);
+  letter-spacing: 0.2rem;
 }
 
 .home-container {
   display: flex;
   flex-direction: column;
-  justify-content: center;
-  align-items: center;
+  align-items: flex-start;
 }
 
 .hi {
-  font-family: 'Sen', sans-serif;
-  padding: 30px;
-  color: #033e99;
-  text-align: center;
+  font-family: "Fredoka", sans-serif;
+  font-weight: 600;
+  font-size: 48px;
+  color: var(--text-light);
+  letter-spacing: 0.1rem;
 }
 
 .im {
-  font-family: 'Sen', sans-serif;
-  padding: 30px;
-  font-size: 50px;
-  color: #033e99;
-  text-align: center;
-}
-
-.btn-cv {
-  margin-top: 60px;
-  padding: 20px;
-  border-radius: 20px;
-  border-style: none;
-  background-color: #3e35a2;
-  color: #ffeba8;
-  font-size: 19px;
-  font-family: 'Sen', sans-serif;
+  font-family: "Fredoka", sans-serif;
+   font-weight: 600;
+  color: var(--text-light);
+  font-size: 48px;
+  margin-bottom: 24px;
+  letter-spacing: 0.1rem;
 }
 
 .front {
-  font-family: 'Sen', sans-serif;
-  padding: 30px;
-  color: #033e99;
-  text-align: center;
+  font-family: "Fredoka", sans-serif;
+  color: var(--text-yellow);
+  font-size: 56px;
+  letter-spacing: 0.3rem;
+  text-shadow: 8px 2px 3px var(--button-first);
+  margin-bottom: 32px;
+}
+
+.primary-btn {
+  font-family: "Sen", sans-serif;
+  background: var(--button-last);
+  background: linear-gradient(66deg,rgba(235, 115, 255, 1) 0%, rgba(84, 132, 255, 1) 100%);
+  color: var(--text-light);
+  border-radius: 24px;
+  padding: 8px 40px;
+  border: 0;
+  box-shadow: -10px 10px 1px var(--text-dark);
+  font-size: 16px;
+  margin-bottom: 4rem;
+}
+
+hr {
+  border: none;
+  border-top: 2px solid var(--text-dark);
+  margin: 10px 0;
+}
+
+.home-description-text {
+  margin-bottom: 3rem;
+  color: var(--text-dark);
+  font-family: "Sen", sans-serif;
+  font-size: 18px;
 }
 
 .profile {
@@ -86,20 +129,49 @@ body {
 .profileText {
   margin-left: 25%;
   margin-right: 25%;
-  padding: 25px;
+  margin-bottom: 15%;
   text-align: center;
-  background-color: #3e35a2;
-  color:  #ffeba8;
-  font-family: 'Sen', sans-serif;
   font-size: 18px;
-  border-radius: 20px;
+  color: var(--text-light);
+  font-family: "Sen", sans-serif;
+}
+
+.experience-container {
+  margin-left: 25%;
+  margin-right: 20%;
+  align-content: center;
+}
+
+.experience-text {
+  margin-bottom: 4rem;
+  text-align: center;
+  color: var(--text-light);
+  font-family: "Sen", sans-serif;
+  font-size: 18px;
+}
+
+.experience-icons {
+  display: flex;
+  justify-content: space-around;
+  padding: 4rem 0;
+  background-color: var(--button-first);
+  width: 100%;
+  color: var(--text-light); 
+  margin-top: 2rem;
+}
+
+.experience-icons-text {
+  font-family: "Sen", sans-serif;
+  text-align: center;
+  margin: 0 1rem;
+  font-size: 16px;
 }
 
 .projectContainer {
-display: flex;
-flex-wrap: wrap;
-justify-content: center;
-margin-bottom: 30px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-bottom: 30px;
 }
 
 .projectFull {
@@ -107,78 +179,51 @@ margin-bottom: 30px;
   flex-wrap: wrap;
 }
 
-.accordion>.card>.card-header  {
-  font-family: 'Sen', sans-serif;
-  color: #033686;
-  text-align: center;
-}
-
-.card-title {
-  padding: 20px;
-  background-color: #3e35a2;
-  color: #ffeba8;
-
-}
-
-.projectCards {
-  background-color: #ffd542;
-  font-family: 'Sen', sans-serif;
-  color: #033686;
-}
-
-.btn-deploy {
-  background-color: #fa7a4c!important;
-  border-color: #fa7a4c!important;
-}
-
-.btn-deploy-text, .btn-repo-text {
-  color: #ffffff;
-}
-
-.btn-repo {
-  margin-left: 10px;
-  background-color: #fa7a4c!important;
-  border-color: #fa7a4c!important;
-}
-
-.experienceContainer {
-  margin-left: 25%;
-  margin-right: 20%;
-  align-content: center;
-}
-
 .exp-title {
-  font-family: 'Sen', sans-serif;
+  font-family: "Fredoka", sans-serif;
   color: #271e85;
 }
 
 .exp-tool {
-  font-family: 'Sen', sans-serif;
+  font-family: "Fredoka", sans-serif;
   color: #271e85;
   font-weight: bolder;
 }
 
 .exp-des {
-  font-family: 'Sen', sans-serif;
+  font-family: "Fredoka", sans-serif;
   color: #271e85;
 }
 
 .contact-container {
   display: flex;
   flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  margin-bottom: 30px;
+  align-items: flex-start;
+  background: #BB78C6;
+  background: linear-gradient(180deg,rgba(187, 120, 198, 1) 0%, rgba(187, 120, 198, 1) 21%, rgba(24, 67, 219, 1) 100%);
+  border-radius: 16px;
+  padding: 0 2rem;
 }
 
-.contactDescription {
-  padding: 25px;
-  text-align: center;
-  background-color: #3e35a2;
-  color:  #ffeba8;
-  font-family: 'Sen', sans-serif;
+.contact-description {
+  margin-bottom: 3rem;
+  color: var(--text-light);
+  font-family: "Sen", sans-serif;
   font-size: 18px;
   border-radius: 20px;
+}
+
+.btn-contact-section{
+  display: flex;
+  margin-bottom: 4rem;
+}
+
+.btn-contact-section a{
+  margin-right: 4rem;
+  font-size: 16px;
+  font-family: "Fredoka", sans-serif;
+  color: var(--text-light);
+  text-decoration: none;
 }
 
 .card {
@@ -186,58 +231,44 @@ margin-bottom: 30px;
   margin-top: 20px;
 }
 
-img.img-contact{
-  width: 50%;
-  margin: 0 auto;
-  display: table-row;
-}
-
-.btn-contact{
-  padding: 20px;
-  border-style: none;
-  border-radius: 20px;
-  font-size: 19px;
-  font-family: 'Sen', sans-serif;
-  background-color: #3e35a2;
-  color: #ffeba8;
-}
-
-.btn-contact-gmail {
-  margin-left: 25%;
-  padding: 20px;
-  border-style: none;
-  border-radius: 20px;
-  font-size: 19px;
-  font-family: 'Sen', sans-serif;
-  background-color: #3e35a2;
-  color: #ffeba8;
-  
-}
-
-.e-mail {
-  margin-top: 15px;
-  font-size: 18px;
-  font-family: 'Sen', sans-serif;
-  color: #3e35a2;
-}
-
-.footer {
-  background-color: #3e35a2;
-  color: #ffd542;
-  font-family: 'Sen', sans-serif;
-  text-align: center;
-}
-
 @media all and (max-width: 800px) {
-
-  .experienceContainer {
-    margin-left: 10%;
-    margin-right: 10%;
-    align-content: center;
+  .home-container {
+    margin: 0 1rem;
   }
 
-  .avatar-container {
-    justify-content: center;
+  .hi {
+  font-size: 36px;
+}
+
+  .im {
+    font-size: 36px;
+  }
+
+  .front {
+    font-size: 40px;
+  }
+
+  hr {
+    margin: 3rem 0;
+  }
+
+  .home-description-text {
+    margin-bottom: 1rem;
+    font-size: 16px;
+  }
+
+  .experience-container {
+    margin-left: 0;
+    margin-right: 0;
+  }
+
+  .experience-icons {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .experience-icons-text {
+    margin: 1rem 0;
   }
 
   .profileText {
@@ -249,10 +280,11 @@ img.img-contact{
     font-size: 16px;
   }
 
-  .contactDescription {
-    font-size: 16px;
-    margin-left: 10%;
-    margin-right: 10%;
+  .contact-container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin: 0 1rem;
   }
 }
 
@@ -265,11 +297,6 @@ img.img-contact{
     align-content: center;
   }
 
-  .avatar {
-    width: 70%;
-    margin-left: 50px;
-  }
-
   .profileText {
     margin-left: 10%;
     margin-right: 10%;
@@ -277,9 +304,5 @@ img.img-contact{
     padding: 20px;
     text-align: center;
     font-size: 16px;
-}
-
-
-
-
+  }
 }
