@@ -9,28 +9,19 @@ import Contact from './components/Contact';
 function App() {
   return (
     <Router>
-      <nav class="menu">
-        <ul>
-          <li className="nav-item">
-            <Link to="/" className="nav-link">Home</Link>
-          </li>
-          <li className="nav-item">
-            <Link to="/profile" className="nav-link">Perfil</Link>
-          </li>
-          <li className="nav-item">
-            <Link to="/portfolio" className="nav-link">Portafolio</Link>
-          </li>
-          <li className="nav-item">
-            <Link to="/contact" className="nav-link">Contacto</Link>
-          </li>
-        </ul>
-      </nav>
-      
+      <div className="app-container">
+        <nav className="navbar">
+          <Link to="/">HOME</Link>
+          <Link to="/profile">ABOUT</Link>
+          <Link to="/portfolio">EXPERIENCE</Link>
+          <Link to="/contact">CONTACT</Link>
+        </nav>
 
-      <Route exact path="/" component={Home} />
-      <Route path="/profile" component={Profile} />
-      <Route path="/portfolio" component={Experience} />
-      <Route path="/contact" component={Contact} />
+        <Route exact path="/" component={Home} />
+        <Route path="/profile" component={Profile} />
+        <Route path="/portfolio" component={Experience} />
+        <Route path="/contact" component={Contact} />
+      </div>
     </Router>
   );
 }

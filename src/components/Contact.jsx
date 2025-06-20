@@ -1,41 +1,33 @@
 import React from 'react';
-import github from '../images/contactCard-github.png';
-import linkedin from '../images/contactCard-linkedin.png';
 
 const Contact = () => {
 
   return (
-    <div className="contact-container">
-      <h2 className="subtitle">Contacto</h2>
-      <div>
-        <p className="contactDescription">
-            Si te gustó mi trabajo o quieres conocer más acerca de <br />
-          mi experiencia como front, ¡Contáctame!</p>
-      </div>
+    <div className="section">
+      <div className='contact-container'>
+        <h2 className="subtitle">CONTACT</h2>
+        <div>
+          <p className="contact-description">
+              Interested in my work or want to know more about my experience as a frontend developer? <br />
+              I'm available to chat, feel free to reach out! 
+          </p>
+        </div>
 
-      <div>
-        <div >
-          <div>
-            <a href="https://github.com/tamaramunoz" target="blank">
-              <img src={github} alt="Github" className="img-contact" />
-            </a>
-            <div>
-              <a href="https://github.com/tamaramunoz" target="blank">
-                <button className="btn-contact">Github</button>
-              </a>
-            </div>
-          </div>
-
-          <div>
-            <a href="https://www.linkedin.com/in/tamara-munoz-zamora/" target="blank">
-              <img src={linkedin} alt="LinkedIn" className="img-contact" />
-            </a>
-            <div>
+        <button
+          className='primary-btn'
+          onClick={() => window.open('https://www.linkedin.com/in/tamara-munoz-zamora/', '_blank')}
+        >Contact</button>
+        <div className='btn-contact-section'>
+             <div className="btn-contact">
               <a href="https://www.linkedin.com/in/tamara-munoz-zamora/" target="blank">
-                  <button className="btn-contact">LinkedIn</button>
+                LinkedIn
               </a>
             </div>
-          </div>
+            <div className="btn-contact">
+              <a href="https://github.com/tamaramunoz" target="blank">
+                GitHub
+              </a>
+            </div>
         </div>
       </div>
     </div>
