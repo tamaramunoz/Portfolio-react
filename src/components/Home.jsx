@@ -1,5 +1,6 @@
 import React from 'react'
-import Profile from './Profile';
+import { Link } from 'react-router-dom';
+import Technologies from './Technologies';
 import Experience from './Experience';
 import Contact from './Contact';
 
@@ -12,7 +13,10 @@ const Home = () => {
           <h1 className="im">TAMARA MUÑOZ</h1>
           <h3 className="front">FRONTEND DEVELOPER</h3>
 
-          <button className='primary-btn'>About me</button>
+          <Link 
+            to="/about"
+            className='primary-btn'
+          >About me</Link>
 
           <div className='home-description'>
           <hr/>
@@ -26,10 +30,10 @@ const Home = () => {
         </div>
       </section>
       
-    
-      {/* <section id="sobre-mi"><Profile /></section> */}
-      <section id="proyectos" className="section"><Experience /></section>
-      <section id="contacto" className="section"><Contact /></section>
+
+      <section id="technologies" className="section"><Technologies /></section>
+      <section id="experience" className="section"><Experience /></section>
+      <section id="contact" className="section"><Contact /></section>
     </div>
   );
 }

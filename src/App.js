@@ -1,9 +1,10 @@
 import React from 'react';
 import { BrowserRouter as Router, Route, Link } from "react-router-dom";
-import Home from './components/Home'
+import Home from './components/Home';
+import About from './components/About';
 import Profile from './components/Profile';
-import Experience from './components/Experience';
 import Contact from './components/Contact';
+import Technologies from './components/Technologies';
 
 
 function App() {
@@ -12,14 +13,15 @@ function App() {
       <div className="app-container">
         <nav className="navbar">
           <Link to="/">HOME</Link>
-          <Link to="/profile">ABOUT</Link>
-          <Link to="/portfolio">EXPERIENCE</Link>
+          <Link to="/about">ABOUT</Link>
+          <Link to="/profile">EXPERIENCE</Link>
           <Link to="/contact">CONTACT</Link>
         </nav>
 
         <Route exact path="/" component={Home} />
+        <Route path="/about" component={About} />
+        <Route path="/tech" component={Technologies} />
         <Route path="/profile" component={Profile} />
-        <Route path="/portfolio" component={Experience} />
         <Route path="/contact" component={Contact} />
       </div>
     </Router>
