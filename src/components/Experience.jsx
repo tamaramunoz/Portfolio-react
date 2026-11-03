@@ -7,7 +7,7 @@ const Experience = () => {
       <h2 className="subtitle">EXPERIENCE</h2>
       <div className="experience-container">
         <p className="experience-text">
-          Throughout my journey as a frontend developer, I’ve taken part in challenging projects that have helped me grow both technically and professionally.
+          Throughout my journey as a software developer, I’ve taken part in challenging projects that have helped me grow both technically and professionally.
           Learn more about my professional path and the experiences that have shaped me.
         </p>
       </div>

@@ -8,7 +8,7 @@ const Contact = () => {
         <h2 className="subtitle">CONTACT</h2>
         <div>
           <p className="contact-description">
-              Interested in my work or want to know more about my experience as a frontend developer? <br />
+              Interested in my work or want to know more about my experience as a software developer? <br />
               I'm available to chat, feel free to reach out! 
           </p>
         </div>

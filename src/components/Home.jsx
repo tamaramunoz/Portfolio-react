@@ -1,18 +1,25 @@
-import React from 'react'
-import Profile from './Profile';
-import Experience from './Experience';
-import Contact from './Contact';
+import React from 'react';
 
 const Home = () => {
+
+  const scrollToProfile = () => {
+    const element = document.getElementById('profile');
+    if (element) {
+      element.scrollIntoView({ behavior: 'smooth' });
+    }
+  };
+
   return (
     <div className="home-scroll-container">
       <section id="inicio" className="section">
         <div className="home-container">
           <h2 className="hi">I AM</h2>
           <h1 className="im">TAMARA MUÑOZ</h1>
-          <h3 className="front">FRONTEND DEVELOPER</h3>
+          <h3 className="front">SOFTWARE DEVELOPER</h3>
 
-          <button className='primary-btn'>About me</button>
+          <button className='primary-btn' onClick={scrollToProfile}>
+            About me
+          </button>
 
           <div className='home-description'>
           <hr/>
@@ -25,11 +32,6 @@ const Home = () => {
           </div>
         </div>
       </section>
-      
-    
-      {/* <section id="sobre-mi"><Profile /></section> */}
-      <section id="proyectos" className="section"><Experience /></section>
-      <section id="contacto" className="section"><Contact /></section>
     </div>
   );
 }
