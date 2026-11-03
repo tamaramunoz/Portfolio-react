@@ -1,4 +1,5 @@
 import React from 'react';
+import {Link} from 'react-router-dom';
 import '../App.css';
 
 const Experience = () => {
@@ -11,7 +12,13 @@ const Experience = () => {
           Learn more about my professional path and the experiences that have shaped me.
         </p>
       </div>
-        <button className='primary-btn'>Learn more</button>
+        <Link 
+          to="/Portfolio" 
+          className='primary-btn' 
+          style={{ display: 'inline-block', textAlign: 'center', textDecoration: 'none' }}
+        >
+        Learn more
+        </Link>
 
         <div className='experience-icons'>
           <span className='experience-icons-text'>

@@ -1,9 +1,12 @@
 import React, { useState } from 'react';
-import { BrowserRouter as Router } from "react-router-dom";
+import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
 import Home from './components/Home';
 import Profile from './components/Profile';
 import Experience from './components/Experience';
 import Contact from './components/Contact';
+import HeroCanvas from './components/HeroCanvas';
+import Portfolio from './components/Portfolio/Portfolio';
+import './App.css';
 
 function App() {
   const [isOpen, setIsOpen] = useState(false);
@@ -30,17 +33,26 @@ function App() {
           </button>
 
           <div className={`nav-links ${isOpen ? 'open' : ''}`}>
-            <button onClick={() => scrollToSection('home')} className="nav-btn">HOME</button>
+            <Link to="/" className="nav-btn" onClick={closeMenu}>HOME</Link>
             <button onClick={() => scrollToSection('profile')} className="nav-btn">ABOUT</button>
             <button onClick={() => scrollToSection('experience')} className="nav-btn">EXPERIENCE</button>
             <button onClick={() => scrollToSection('contact')} className="nav-btn">CONTACT</button>
           </div>
         </nav>
 
-      <section id="home"><Home /></section>
-      <section id="profile"><Profile /></section>
-      <section id="experience"><Experience /></section>
-      <section id="contact"><Contact /></section>
+        <Routes>
+          <Route path="/" element={
+            <>
+              <section id="home"><Home /></section>
+              <section id="heroCanvas"><HeroCanvas /></section>
+              <section id="profile"><Profile /></section>
+              <section id="experience"><Experience /></section>
+              <section id="contact"><Contact /></section>
+            </>
+          } />
+
+          <Route path="/portfolio" element={<Portfolio />} />
+        </Routes>
       </div>
     </Router>
   );
